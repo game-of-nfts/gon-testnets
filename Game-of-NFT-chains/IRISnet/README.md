@@ -27,7 +27,47 @@ The genesis file with was generated using the following settings:
 
 ### Join the validator set
 
+1. If you don't have a node configuration file yet, you can initialize a node with the following command:
+
+```bash
+iris init <moniker> --chain-id=iris-1 --home=~/.iris
+```
+
+2. Use the genesis.json provided by the chain team to overwrite the locally generated genesis.json file
+
+```bash
+curl -o ~/.iris/config/genesis.json https://raw.githubusercontent.com/bianjieai/gon-testnets/Game-of-NFT-chains/IRISnet/genesis.json
+```
+
+3. Modify the config.toml file using the configuration provided in [Endpoints](#endpoints)
+4. Start node
+
+```bash
+iris start --home=~/.iris
+```
+
+5. Receive tokens from the [faucet](#faucet) and join the set of validators
+
+```bash
+iris tx staking create-validator \
+    --pubkey=$(iris tendermint show-validator) \
+    --moniker=<your-validator-name> \
+    --amount=<amount-to-be-delegated, e.g. 10000iris> \
+    --min-self-delegation=1 \
+    --commission-max-change-rate=0.1 \
+    --commission-max-rate=0.1 \
+    --commission-rate=0.1 \
+    --gas=100000 \
+    --fees=0.6iris \
+    --chain-id=iris-1 \
+    --from=<key-name>
+```
+
 ### Operattion guide about ics721
+
+The nft implemented by each chain may be different. Use the chain of the [module/nft](https://github.com/irisnet/irismod/tree/main/modules/nft) module in irismod. For operations such as the issuance and transfer of nft, please refer to the [documentation](https://www.irisnet.org/docs/cli-client/nft.html#iris-tx-nft-edit)
+
+After users issue nft, they can use the [ics721](https://github.com/cosmos/ibc/blob/main/spec/app/ics-721-nft-transfer/README.md) protocol to transfer nft to other chains. For specific operations, refer to the [document](ics721-cmd.md)
 
 ## Endpoints
 
@@ -36,8 +76,20 @@ The genesis file with was generated using the following settings:
 
 ## Explorer
 
+These block explorers allow you to search, view and analyze IRIS Hub data—like blocks, transactions, validators, governance including params or proposals, etc.
+
+- [iobscan](https://irishub.iobscan.io/)
+- [mintscan](https://irishub.mintscan.io/)
+
 ## Faucet
 
+Welcome to get test tokens in our [testnet faucet channel](https://discord.gg/Z6PXeTb5Mt).
+Usage: in [nyancat-faucet channel](https://discord.gg/Z6PXeTb5Mt), type "$faucet " + your address on Nyancat testnet, to get test tokens (NYAN) every 24 hours.
+
 ## Relayer
+
+The repeaters currently supporting ics721 are as follows：
+
+- [Cosmos Go Relayer](https://github.com/cosmos/relayer/releases/tag/v2.1.2)
 
 ## Other
