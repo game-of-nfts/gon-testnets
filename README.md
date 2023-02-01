@@ -1,6 +1,6 @@
 # Game of NFTs
 
-> *Please note that this is not the final version, and will subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft.*
+> Please note that this document is currently in **DRAFT STATUS**, and will subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft.
 
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
 
