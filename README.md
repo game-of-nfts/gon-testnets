@@ -27,7 +27,7 @@ The testnet infrastructure will include:
 - Support services
 - Faucets
 
-Participants will utilize all GoN testnets for feature-testing, and for completing multiple tasks. Moreover, participants can also join the testnets as validators to compete for extra rewards.
+Participants will utilize all GoN testnets for feature-testing, and for completing multiple tasks.
 
 There will be scoreboard, discord channel, and more supporting services to be provided during the event.
 
