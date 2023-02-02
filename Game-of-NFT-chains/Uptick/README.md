@@ -6,7 +6,6 @@
 
 The binary published in this repo is the `uptickd` binary built using the `uptick` repo branch [gon](https://github.com/UptickNetwork/uptick/tree/gon).
 
-- [Linux amd64 build](uptickd)
 - SHA256: `1c386d7b365535d2e69f32d39c96ada4f733227d45d08b03da36e69bc9d54706`
 
 You can generate the binary following the [build instructions](install.md).
@@ -24,6 +23,7 @@ The genesis file with was generated using the following settings:
 - Denom: `auptick`
 - Signed blocks window: `"14000"`
 
+
 ### Join the validator set
 
 1. If you don't have a node configuration file yet, you can initialize a node with the following command:
@@ -35,10 +35,13 @@ uptickd init <moniker> --chain-id=uptick_7000-2 --home=~/.uptickd
 2. Use the genesis.json provided by the chain team to overwrite the locally generated genesis.json file
 
 ```bash
-curl -o ~/.uptickd/config/genesis.json https://github.com/UptickNetwork/uptick-testnet/blob/main/uptick_7000-2/genesis.json
+curl -o $HOME/.uptickd/config/genesis.json https://raw.githubusercontent.com/UptickNetwork/uptick-testnet/main/uptick_7000-2/genesis.json
+sed -i -e "s|^seeds *=.*|seeds = \"f97a75fb69d3a5fe893dca7c8d238ccc0bd66a8f@uptick-seed.p2p.brocha.in:30554,eecdfb17919e59f36e5ae6cec2c98eeeac05c0f2@peer0.testnet.uptick.network:26656\"|" $HOME/.uptickd/config/config.toml
+
 ```
 
 3. Modify the config.toml file using the configuration provided in [Endpoints](#endpoints)
+
 4. Start node
 
 ```bash
@@ -68,10 +71,6 @@ The nft implemented by each chain may be different. Use the chain of the [module
 
 After users issue nft, they can use the [ics721](https://github.com/cosmos/ibc/blob/main/spec/app/ics-721-nft-transfer/README.md) protocol to transfer nft to other chains. For specific operations, refer to the [document](ics721-cmd.md)
 
-## Endpoints
-
-- **p2p seeds : `c5f4b33d904adaeacc1ca05bfcd7376ca4d51519@tenderseed.ccvalidators.com:29029`**
-- **p2p persistent peers : `4b5cee15e6a9c4b96b8c1c4f396a18b0461edc17@104.248.161.33:26656,835173badfc41ecbd867a0395c6a452bda2bb90f@178.62.105.39:26656`**
 
 ## Explorer
 
