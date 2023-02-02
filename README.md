@@ -12,7 +12,7 @@ Phase 1 of GoN will open for registration and kick off soon, and we have a numbe
 
 To participate, please note that: 
 
-- Employees of Organizer Teams (IRISnet, Stargaze, Juno) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
+- Employees of Organizer Teams (IRISnet,Uptick, Stargaze, Juno) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
 - GitHub account has been registered more than one year.
 
 ## Overview
