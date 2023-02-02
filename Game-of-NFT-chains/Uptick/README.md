@@ -23,7 +23,6 @@ The genesis file with was generated using the following settings:
 - Chain ID: `uptick_7000-2`
 - Denom: `auptick`
 - Signed blocks window: `"14000"`
-- Two additional genesis accounts were added to provide funds for a faucet and a relayer that will be run by the testnet coordinators.
 
 ### Join the validator set
 

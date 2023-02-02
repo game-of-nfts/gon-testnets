@@ -12,7 +12,7 @@ Phase 1 of GoN will open for registration and kick off soon, and we have a numbe
 
 To participate, please note that: 
 
-- Employees of Organizer Teams (IRISnet,Uptick, Stargaze, Juno) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
+- Employees of Organizer Teams (IRISnet, Uptick, Stargaze, Juno) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
 - GitHub account has been registered more than one year.
 
 ## Overview
@@ -77,7 +77,7 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 ### Prohibited Behavior
 
-- Engaging in any behaviour that might be unethical / not in line with the community ethics of the Cosmos Hub, IRISnet, Stargaze, Juno.
+- Engaging in any behaviour that might be unethical / not in line with the community ethics of the Cosmos Hub, IRISnet, Uptick, Stargaze, Juno.
 - Any attack against a node that violates the acceptable use policy outlined by that node's cloud service provider. Please familiarize yourself with those policies (such as Google's, Amazon's, or Digital Ocean's).
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
