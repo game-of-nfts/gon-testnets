@@ -10,6 +10,15 @@ The binary published in this repo is the `uptickd` binary built using the `uptic
 
 You can generate the binary following the [build instructions](install.md).
 
+### Public Endpoints
+
+```
+REST: https://peer1.testnet.uptick.network:1318
+RPC: https://peer1.testnet.uptick.network:36657
+grpc:https://peer1.testnet.uptick.network:9092
+
+```
+
 
 ### Operattion guide about ics721
 
