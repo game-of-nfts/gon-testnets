@@ -15,6 +15,14 @@ To participate, please note that:
 - Employees of Organizer Teams (IRISnet, Stargaze, Juno) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
 - GitHub account has been registered more than one year.
 
+**Table of Contents**
+
+- [Overview](#Overview)
+- [Timeline](#Timeline)
+- [Point System](#Point-System)
+- [Rules](#Rules)
+- [Appendix](#Appendix)
+
 ## Overview
 
 Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of interesting attack vectors.	
@@ -100,3 +108,8 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 - Any attack against a node that violates the acceptable use policy outlined by that node's cloud service provider. Please familiarize yourself with those policies (such as Google's, Amazon's, or Digital Ocean's).
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
+
+## Appendix
+
+- [Flow Table](appendix/flow-table.md)
+- [Channel Table](appendix/channel-table.md)
