@@ -62,6 +62,25 @@ Duration: 10 days
 
 In addition to tasks, there will be contributor awards for rewarding community-contributed content and tools, i.e, auditing services, public goods, community supports, NFT memes.
 
+## Point System
+
+### Tasks
+
+Coming soon...
+
+There will be more than 30 tasks with varying points depending on their difficulty level, featuring several racing themes.
+
+### Award
+
+| Award              | Details                                                                                                                                         |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Best Auditor       | Find any unexpected critical issues that were not found through planned tasks.                                                                  |
+| Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. |
+| Community Star     | Provide most help for the game and participants.                                                                                                |
+| Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                        |
+ | Best NFT Memes     | Create the most popular NFT memes.                                                                                                              |
+| ...                | ...                                                                                                                                             |
+
 ## Rules
 
 The Game of NFTs Phase 1 testnets aim to provide mainnet-like environments for participants to better understand and become familiar with Interchain NFTs, and idenetify potential issues. Breaking the rules listed below will result in disqualification.
@@ -81,4 +100,3 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 - Any attack against a node that violates the acceptable use policy outlined by that node's cloud service provider. Please familiarize yourself with those policies (such as Google's, Amazon's, or Digital Ocean's).
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
-
