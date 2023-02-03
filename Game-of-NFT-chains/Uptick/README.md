@@ -69,7 +69,7 @@ uptickd tx staking create-validator \
 ```
 REST: https://peer1.testnet.uptick.network:1318
 RPC: https://peer1.testnet.uptick.network:36657
-grpc:https://peer1.testnet.uptick.network:9092
+grpc: peer1.testnet.uptick.network:9090
 
 ```
 
