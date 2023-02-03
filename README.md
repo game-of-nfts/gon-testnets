@@ -68,7 +68,7 @@ In addition to tasks, there will be contributor awards for rewarding community-c
 
 Coming soon...
 
-There will be more than 30 tasks with varying point values depending on their difficulty level, featuring several racing challenges.
+There will be more than 30 tasks with varying points depending on their difficulty level, featuring several racing themes.
 
 ### Award
 
