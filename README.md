@@ -1,27 +1,32 @@
 # Game of NFTs
 
-> Please note that this document is currently in **DRAFT STATUS**, and will subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft.
+> Please note that this document is currently in DRAFT STATUS, and will be subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft, please join [Discord](https://discord.gg/cosmosnetwork) and let us know your feedback in channel `#nft-chat`.
 
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
 
 The program includes two phases:
-- Phase 1 - Public Incentivized Testnets
-- Phase 2 - Hackathon
+- Phase 1 - Public Incentivized Testnets(Soon)
+- Phase 2 - Hackathon(April 2023)
 
 Phase 1 of GoN will open for registration and kick off soon, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
 
 To participate, please note that: 
 
-- Employees of Organizer Teams (IRISnet, Stargaze, Juno) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
+- Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
 - GitHub account has been registered more than one year.
 
 **Table of Contents**
 
-- [Overview](#Overview)
-- [Timeline](#Timeline)
-- [Point System](#Point-System)
-- [Rules](#Rules)
-- [Appendix](#Appendix)
+- [Game of NFTs](#game-of-nfts)
+  - [Overview](#overview)
+  - [Timeline](#timeline)
+  - [Point System](#point-system)
+    - [Tasks](#tasks)
+    - [Award](#award)
+  - [Rules](#rules)
+    - [Disqualification](#disqualification)
+    - [Prohibited Behavior](#prohibited-behavior)
+  - [Appendix](#appendix)
 
 ## Overview
 
@@ -104,7 +109,7 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 ### Prohibited Behavior
 
-- Engaging in any behaviour that might be unethical / not in line with the community ethics of the Cosmos Hub, IRISnet, Stargaze, Juno.
+- Engaging in any behaviour that might be unethical / not in line with the community ethics of the Cosmos Hub, IRISnet, Stargaze, Juno, Uptick and OmniFlix
 - Any attack against a node that violates the acceptable use policy outlined by that node's cloud service provider. Please familiarize yourself with those policies (such as Google's, Amazon's, or Digital Ocean's).
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
