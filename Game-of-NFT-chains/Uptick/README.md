@@ -66,13 +66,7 @@ uptickd tx staking create-validator \
 ```
 ### Public Endpoints
 
-```
-REST: https://peer1.testnet.uptick.network:1318
-RPC: https://peer1.testnet.uptick.network:36657
-grpc: peer1.testnet.uptick.network:9090
-
-```
-
+Coming soon...
 
 ### Operattion guide about ics721
 

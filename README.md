@@ -52,26 +52,25 @@ The Incentivized Testnets will have 3 stages with different tasks.
 
 Duration: 3 days
 
-- Join testnets
 - Create Collections and NFTs
-- …
+- Perfrom Interchain NFTs Transfer
+- ...
 
-**Stage 2: Let's Do Interchain-NFT-Transfer**
+**Stage 2: Let's Dive into Interchain NFTs Transfer**
 
 Duration: 5 days
 
-- Perform cross-chain NFT transfers through different paths
-- Perform general operations on cross-chain NFTs on destination chains
-- …
+- Perform Interchain NFT Transfer through different flows
+- ...
 
 
 **Stage 3: Enjoy the Carnival of GoN**
 
 Duration: 10 days
 
-- Cross-chain NFT transfer race
-- Cross-chain NFT puzzle game
-- …
+- Competitive race game
+- Quiz game
+- ...
 
 In addition to tasks, there will be contributor awards for rewarding community-contributed content and tools, i.e, auditing services, public goods, community supports, NFT memes.
 

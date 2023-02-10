@@ -1,3 +1,0 @@
-# Secret Lexicon
-
-Coming soon...
