@@ -10,11 +10,6 @@ The program includes two phases:
 
 Phase 1 of GoN will open for registration and kick off soon, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
 
-To participate, please note that: 
-
-- Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
-- GitHub account has been registered more than one year.
-
 **Table of Contents**
 
 - [Game of NFTs](#game-of-nfts)
@@ -24,6 +19,7 @@ To participate, please note that:
     - [Tasks](#tasks)
     - [Award](#award)
   - [Rules](#rules)
+    - [Entry Requirements](#entry-requirements)
     - [Disqualification](#disqualification)
     - [Prohibited Behavior](#prohibited-behavior)
   - [Appendix](#appendix)
@@ -98,6 +94,13 @@ There will be more than 30 tasks with varying points depending on their difficul
 The Game of NFTs Phase 1 testnets aim to provide mainnet-like environments for participants to better understand and become familiar with Interchain NFTs, and idenetify potential issues. Breaking the rules listed below will result in disqualification.
 
 The rules for Game of NFTs Phase 1 are subject to change at any time through launch, and any changes will be committed here.
+
+### Entry Requirements
+To participate, please note that: 
+
+- Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
+- GitHub account has been registered more than one year.
+
 
 ### Disqualification
 
