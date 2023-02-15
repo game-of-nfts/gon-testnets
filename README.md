@@ -5,15 +5,16 @@
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
 
 The program includes two phases:
-- Phase 1 - Public Incentivized Testnets(Soon)
+- Phase 1 - Public Incentivized Testnets(Register Open)
 - Phase 2 - Hackathon(April 2023)
 
-Phase 1 of GoN will open for registration and kick off soon, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
+Phase 1 of GoN is now open for registration and will kick off soon, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
 
 **Table of Contents**
 
 - [Game of NFTs](#game-of-nfts)
   - [Overview](#overview)
+  - [How to Join](#how-to-join)
   - [Timeline](#timeline)
   - [Point System](#point-system)
     - [Tasks](#tasks)
@@ -38,7 +39,15 @@ The testnet infrastructure will include:
 
 Participants will utilize all GoN testnets for feature-testing, and for completing multiple tasks.
 
+💬 Event coordinators will be available in the [Cosmos Network Discord](https://discord.gg/cosmosnetwork)  #🎨・GAME-OF-NFTS
+
 There will be scoreboard, discord channel, and more supporting services to be provided during the event.
+
+## How to Join
+
+Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform) to register in the Phase 1.
+
+After this, another form will be made available in the Discord channel to collect participants' addresses on testnets.
 
 ## Timeline
 
