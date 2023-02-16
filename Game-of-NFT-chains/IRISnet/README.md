@@ -4,10 +4,12 @@
 
 ### Binary
 
-The binary published in this repo is the `iris` binary built using the `irishub` repo branch [feature/gon](https://github.com/irisnet/irishub/tree/feature/gon).
+The binary published in this repo is the `iris` binary built using the `irishub` repo tag [v1.4.1-gon-testnet](https://github.com/irisnet/irishub/tree/v1.4.1-gon-testnet).
 
-- [Linux amd64 build](iris)
-- SHA256: `071d7ee2765dc97206391aa64cd42e23e9847c179ab1c4e72eb1811b2c157047`
+- [Linux amd64 build](iris-linux.zip)
+  - SHA256: `d0e8d730e9db111f72e79b6a73082d2f4a42ac7e329ce69c9888f1e6f5615595`
+- [Macos x86_64 build](iris-mac.zip)
+  - SHA256: `d0e8d730e9db111f72e79b6a73082d2f4a42ac7e329ce69c9888f1e6f5615595`
 
 You can generate the binary following the [build instructions](install.md).
 
@@ -46,7 +48,7 @@ curl -o ~/.iris/config/genesis.json https://raw.githubusercontent.com/bianjieai/
 iris start --home=~/.iris
 ```
 
-5. Receive tokens from the [faucet](#faucet) and join the set of validators
+1. Receive tokens from the [faucet](https://discord.com/channels/806356514973548614/1075349392095203380) and join the set of validators
 
 ```bash
 iris tx staking create-validator \
@@ -83,13 +85,14 @@ These block explorers allow you to search, view and analyze IRIS Hub data—like
 
 ## Faucet
 
-Welcome to get test tokens in our [testnet faucet channel](https://discord.gg/Z6PXeTb5Mt).
-Usage: in [nyancat-faucet channel](https://discord.gg/Z6PXeTb5Mt), type "$faucet " + your address on Nyancat testnet, to get test tokens (NYAN) every 24 hours.
+Welcome to get test tokens in our [GoN testnet faucet channel](https://discord.com/channels/806356514973548614/1075349392095203380).
+Usage: in [GoN testnet faucet channel](https://discord.com/channels/806356514973548614/1075349392095203380), type "$faucet " + your address on GoN testnet, to get test tokens (uiris) every 24 hours.
 
 ## Relayer
 
 The repeaters currently supporting ics721 are as follows：
 
-- [Cosmos Go Relayer](https://github.com/cosmos/relayer/releases/tag/v2.1.2)
+- [Go Relayer 2.1.2](https://github.com/cosmos/relayer/releases/tag/v2.1.2)
+- [Hermes 1.2.0](https://hermes.informal.systems/quick-start/installation.html)
 
 ## Other
