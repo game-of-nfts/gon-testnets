@@ -1,4 +1,4 @@
-# OmniFlixHub Chain Information
+# OmniFlix GON Chain Information
 
 ## Chain
 
@@ -7,15 +7,15 @@
 The binary published in this repo is the `omniflixhubd` binary built using the `omniflixhub` repo branch [omniflix-gon](https://github.com/OmniFlix/omniflixhub/tree/omniflix-gon).
 
 - [Linux amd64 build](omniflixhubd)
-- SHA256: `TBA`
+- SHA256: `57e71e11c2585c92bb11793390bc529c7c18748af17e18e37069ffb91f632e5c`
 
 You can generate the binary following the [build instructions](install.md).
 
 ### Genesis file
 
-Final genesis file: **[genesis.json](genesis.json)**
+Final genesis file: **[genesis.json](https://github.com/OmniFlix/testnets/blob/main/gon-flixnet-1/genesis.json)**
 
-- SHA256: `TBA`
+- SHA256: `755681d36a3d65bed663ccea3d8977f97f858ffbb493263b83a9ae6e0375c843`
 - Validators must replace their `config/genesis.json` file with this one before running the binary.
 
 The genesis file with was generated using the following settings:
@@ -72,19 +72,19 @@ After users creates nft, they can use the [ics721](https://github.com/cosmos/ibc
 ## Endpoints
 
 - **p2p seeds : ``**
-- **p2p persistent peers : ``**
+- **p2p persistent peers : `8ad765777a045e74e7530912e0fd53156379a069@65.21.93.56:26656,5c74801379b1dec1d6c1c168f6ee81fe4087fc8b@65.21.93.56:46656`**
 
 ## Explorer
 
 These block explorers allow you to search, view and analyze OmniFlixHub data—like blocks, transactions, validators, governance including params or proposals, etc.
 ```
-TBA
+https://ping-pub-explorer.omniflix.io
 ```
 
 ## Faucet
 
 ```
-TBA
+https://faucet.gon-flixnet.omniflix.io/?address=omniflix1...
 ```
 ## Relayer
 
