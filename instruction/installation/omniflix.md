@@ -1,8 +1,8 @@
-# Install
+# Installation
 
 ## Install go
 
-Install `go` by following the [official docs](https://golang.org/doc/install).**Go 1.19+ is required for building and installing the IRIShub software**
+Install `go` by following the [official docs](https://golang.org/doc/install).**Go 1.19+ is required for building and installing the OmniFlixHub software**
 Remember to set your `$GOPATH`, `$GOBIN`, and `$PATH` environment variables, for example:
 
 ```bash
@@ -21,22 +21,22 @@ Verify that `go` has been installed successfully
 go version
 ```
 
-## Install `iris`
+## Install `omniflixhubd`
 
-After setting up `go` correctly, you should be able to compile and run `iris`.
+After setting up `go` correctly, you should be able to compile and run `omniflixhubd`.
 
 Make sure that your server can access to google.com because our project depends on some libraries provided by google. (If you are not able to access google.com, you can also try to add a proxy: `export GOPROXY=https://goproxy.io`)
 
 ```bash
-git clone https://github.com/irisnet/irishub
-cd irishub
-git checkout feature/gon
+git clone https://github.com/omniflix/omniflixhub
+cd omniflixhub
+git checkout v0.9.0-gon-rc5
 make install
 ```
 
 If your environment variables have set up correctly, you should not get any errors by running the above commands.
-Now check your `iris` version.
+Now check your `omniflixhubd` version.
 
 ```bash
-iris version
+omniflixhubd version
 ```

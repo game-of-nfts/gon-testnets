@@ -23,7 +23,7 @@ Phase 1 of GoN is now open for registration and will kick off soon, and we have 
     - [Entry Requirements](#entry-requirements)
     - [Disqualification](#disqualification)
     - [Prohibited Behavior](#prohibited-behavior)
-  - [Appendix](#appendix)
+  - [Repository Structure](#repository-structure)
 
 ## Overview
 
@@ -110,13 +110,11 @@ To participate, please note that:
 - Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
 - GitHub account has been registered more than one year.
 
-
 ### Disqualification
 
 The following behavior will result in disqualification from Game of NFTs Phase 1 Incentivized Testnets:
 - Registering multiple teams in order to win more testnet prizes than you otherwise would.
 - Engaging in any prohibited behavior.
-
 
 ### Prohibited Behavior
 
@@ -125,7 +123,11 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
 
-## Appendix
+## Repository Structure
 
-- [Flow Table](appendix/flow-table.md)
-- [Channel Table](appendix/channel-table.md)
+- [Evidence](./evidence/README.md) How to submit task evidences
+- [Instruction](./instruction/README.md) How to install binaries and use 
+- Appendix
+  - [Channel Table](./appendix/channel-table.md)
+  - [Flow Table](./appendix/flow-table.md)
+  - [Testnet Info](./appendix/testnet-info.md)
