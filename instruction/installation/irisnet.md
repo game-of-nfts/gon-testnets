@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-Install `go` by following the [official docs](https://golang.org/doc/install).**Go 1.19+ is required for building and installing the IRIShub software**
+Install `go` by following the [official docs](https://golang.org/doc/install). **Go 1.19+ is required for building and installing the IRIShub software**
 Remember to set your `$GOPATH`, `$GOBIN`, and `$PATH` environment variables, for example:
 
 ```bash

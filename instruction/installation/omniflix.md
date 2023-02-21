@@ -1,6 +1,6 @@
 # Installation
 
-## Install go
+## Prerequisite
 
 Install `go` by following the [official docs](https://golang.org/doc/install).**Go 1.19+ is required for building and installing the OmniFlixHub software**
 Remember to set your `$GOPATH`, `$GOBIN`, and `$PATH` environment variables, for example:

@@ -124,10 +124,10 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
 
-## Repository Structure
+## Reference
 
-- [Evidence](./evidence/README.md) How to submit task evidences
-- [Instruction](./instruction/README.md) How to install binaries and use 
+- [Evidence](./evidence/README.md)
+- [Instruction](./instruction/README.md) 
 - Appendix
   - [Channel Table](./appendix/channel-table.md)
   - [Flow Table](./appendix/flow-table.md)

@@ -2,7 +2,14 @@
 
 - [Explorer](#explorer)
 - [Faucet](#faucet)
+  - [Website](#website)
+  - [Discord](#discord)
 - [Chain Information](#chain-information)
+  - [IRISnet](#irisnet)
+  - [Stargaze](#stargaze)
+  - [Juno](#juno)
+  - [Uptick](#uptick)
+  - [OmniFlix](#omniflix)
 
 ## Explorer
 

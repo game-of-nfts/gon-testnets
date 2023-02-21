@@ -1,6 +1,6 @@
-# nft-transfer
+# ICS-721 Instruction for Go Implementation
 
-The premise of transferring nft across chains is that at least one relayer needs to be run between the two chains. For how to run a relayer, please refer to [here](README.md#relayer)
+IRISnet, Uptick and OmniFlix use [nft-transfer]() to implement Interchain NFT functionality. These chains share the same instruction in their clients. 
 
 **Note, whether it is the original chain or the target chain, the portID of cross-chain transfer nft is fixed `nft-transfer`**
 
@@ -9,7 +9,7 @@ The premise of transferring nft across chains is that at least one relayer needs
 For cross-chain transfer nft, please execute the following command:
 
 ```bash
-iris tx nft-transfer transfer <src-chain-port> <src-chain-channel> <dst-chain-receiver> <classID> <nftID>  \
+simd tx nft-transfer transfer <src-chain-port> <src-chain-channel> <dst-chain-receiver> <classID> <nftID>  \
     --from <signer> \
     --chain-id <chain-id> \
     --keyring-dir <key-path> \
@@ -24,7 +24,7 @@ iris tx nft-transfer transfer <src-chain-port> <src-chain-channel> <dst-chain-re
 When the nft is received by the target chain, a new class category will be generated according to the definition of ics721. For details, please refer to the [ics721 spec](https://github.com/cosmos/ibc/blob/main/spec/app/ics-721-nft-transfer/README.md). Of course, you can query the classID generated on the target chain with the following command
 
 ```bash
-iris query nft-transfer class-hash <port>/<dst-chain-channel>/<src-chain-class-id> 
+simd query nft-transfer class-hash <port>/<dst-chain-channel>/<src-chain-class-id> 
 ```
 
 ## Class-trace
@@ -32,7 +32,7 @@ iris query nft-transfer class-hash <port>/<dst-chain-channel>/<src-chain-class-i
 If you want to query the original information of cross-chain nft, you can use the following command
 
 ```bash
-iris query nft-transfer class-trace [class-hash] [flags]
+simd query nft-transfer class-trace [class-hash] [flags]
 ```
 
 ## Escrow-address
@@ -40,5 +40,5 @@ iris query nft-transfer class-trace [class-hash] [flags]
 When the nft cross-chain transfer to the destination chain is successful, the nft on the original chain will be hosted at the specified system account address, you can use the following command to query the system account address
 
 ```bash
-iris query nft-transfer escrow-address [port] [src-channel-id]
+simd query nft-transfer escrow-address [port] [src-channel-id]
 ```
