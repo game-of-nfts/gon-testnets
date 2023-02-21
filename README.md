@@ -29,13 +29,14 @@ Phase 1 of GoN is now open for registration and will kick off soon, and we have 
 
 Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of interesting attack vectors.	
 
-The testnet infrastructure will include:
+The testnet [infrastructure](./appendix/testnet-info.md) will include:
 
-- ICS721 SDK chain
-- ICS721 Wasm chain
-- IBC relayers
-- Support services
+- ICS721 SDK Chain
+- ICS721 Wasm Chain
+- IBC Relayers
+- Support Services
 - Faucets
+- Explorers
 
 Participants will utilize all GoN testnets for feature-testing, and for completing multiple tasks.
 
@@ -47,7 +48,7 @@ There will be scoreboard, discord channel, and more supporting services to be pr
 
 Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform) to register in the Phase 1.
 
-After this, another form will be made available in the Discord channel to collect participants' addresses on testnets.
+After the initial screening, participants will be informed how to obtain the **formal qualification**.
 
 ## Timeline
 
