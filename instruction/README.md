@@ -11,11 +11,11 @@ This part instruct participants how to install binary, execute basic nft operati
   - [Uptick](./installation/uptick.md)
   - [OmniFlix](./installation/omniflix.md)
 - NFT Basic Operation
-  - [erc-721-go](./erc-721/go.md)
-  - [erc-721-wasm](./erc-721/wasm.md)
+  - [ERC-721-Go](./erc-721/go.md)
+  - [ERC-721-Wasm](./erc-721/wasm.md)
 - Interchain NFT Operation
-  - [ics-721-go](./ics-721/go.md)
-  - [ics-721-wasm](./ics-721/wasm.md)
+  - [ICS-721-Go](./ics-721/go.md)
+  - [ICS-721-Wasm](./ics-721/wasm.md)
 
 ## Installation
 

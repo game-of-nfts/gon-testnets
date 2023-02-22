@@ -23,7 +23,7 @@ Phase 1 of GoN is now open for registration and will kick off soon, and we have 
     - [Entry Requirements](#entry-requirements)
     - [Disqualification](#disqualification)
     - [Prohibited Behavior](#prohibited-behavior)
-  - [Repository Structure](#repository-structure)
+  - [Reference](#reference)
 
 ## Overview
 
@@ -60,15 +60,12 @@ Duration: 3 days
 
 - Create Collections and NFTs
 - Perfrom Interchain NFTs Transfer
-- ...
 
 **Stage 2: Let's Dive into Interchain NFTs Transfer**
 
 Duration: 5 days
 
 - Perform Interchain NFT Transfer through different flows
-- ...
-
 
 **Stage 3: Enjoy the Carnival of GoN**
 
@@ -76,7 +73,6 @@ Duration: 10 days
 
 - Competitive race game
 - Quiz game
-- ...
 
 In addition to tasks, there will be contributor awards for rewarding community-contributed content and tools, i.e, auditing services, public goods, community supports, NFT memes.
 
@@ -91,12 +87,12 @@ There will be more than 30 tasks with varying points depending on their difficul
 ### Award
 
 | Award              | Details                                                                                                                                         |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Best Auditor       | Find any unexpected critical issues that were not found through planned tasks.                                                                  |
 | Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. |
 | Community Star     | Provide most help for the game and participants.                                                                                                |
-| Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                        |
- | Best NFT Memes     | Create the most popular NFT memes.                                                                                                              |
+| Best Promoter      | Create the best GoN promotional content on social media.`<br>` *We will take views and other metrics into consideration*.                   |
+| Best NFT Memes     | Create the most popular NFT memes.                                                                                                              |
 | ...                | ...                                                                                                                                             |
 
 ## Rules
@@ -106,7 +102,8 @@ The Game of NFTs Phase 1 testnets aim to provide mainnet-like environments for p
 The rules for Game of NFTs Phase 1 are subject to change at any time through launch, and any changes will be committed here.
 
 ### Entry Requirements
-To participate, please note that: 
+
+To participate, please note that:
 
 - Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
 - GitHub account has been registered more than one year.
@@ -114,6 +111,7 @@ To participate, please note that:
 ### Disqualification
 
 The following behavior will result in disqualification from Game of NFTs Phase 1 Incentivized Testnets:
+
 - Registering multiple teams in order to win more testnet prizes than you otherwise would.
 - Engaging in any prohibited behavior.
 
@@ -127,7 +125,7 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 ## Reference
 
 - [Evidence](./evidence/README.md)
-- [Instruction](./instruction/README.md) 
+- [Instruction](./instruction/README.md)
 - Appendix
   - [Channel Table](./appendix/channel-table.md)
   - [Flow Table](./appendix/flow-table.md)
