@@ -30,7 +30,7 @@ Make sure that your server can access to google.com because our project depends 
 ```bash
 git clone https://github.com/irisnet/irishub
 cd irishub
-git checkout feature/gon
+git checkout v1.4.1-gon-testnet
 make install
 ```
 

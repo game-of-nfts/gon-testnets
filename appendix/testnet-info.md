@@ -1,15 +1,16 @@
 # Testnet Information
 
-- [Explorer](#explorer)
-- [Faucet](#faucet)
-  - [Website](#website)
-  - [Discord](#discord)
-- [Chain Information](#chain-information)
-  - [IRISnet](#irisnet)
-  - [Stargaze](#stargaze)
-  - [Juno](#juno)
-  - [Uptick](#uptick)
-  - [OmniFlix](#omniflix)
+- [Testnet Information](#testnet-information)
+  - [Explorer](#explorer)
+  - [Faucet](#faucet)
+    - [Website](#website)
+    - [Discord](#discord)
+  - [Chain Information](#chain-information)
+    - [IRISnet](#irisnet)
+    - [Stargaze](#stargaze)
+    - [Juno](#juno)
+    - [Uptick](#uptick)
+    - [OmniFlix](#omniflix)
 
 ## Explorer
 
@@ -31,7 +32,7 @@ Coming soon...
 
 | Type      | Value                               |
 |-----------|-------------------------------------|
-| Chain ID  | `gon-iris-1`                        |
+| Chain ID  | `gon-irishub-1`                        |
 | Denom     | `uiris`                             |
 | RPC       | `http://34.80.93.133:26657`         |
 | gRPC      | `http://34.80.93.133:9090`          |
@@ -61,18 +62,18 @@ Coming soon...
 
 | Type      | Value                                 |
 |-----------|---------------------------------------|
-| Chain ID  | `uptick_7000-2`                       |
+| Chain ID  | `uptick_7000-1`                       |
 | Denom     | `auptick`                             |
-| RPC       | `http://52.220.252.160:26657`         |
-| gRPC      | `http://52.220.252.160:9090`          |
-| WebSocket | `ws://52.220.252.160:26657/websocket` |
+| RPC       | `http://52.74.190.214:26657`         |
+| gRPC      | `http://52.74.190.214:9090`          |
+| WebSocket | `ws://52.74.190.214:26657/websocket` |
 
 ### OmniFlix
 
 | Type      | Value                              |
 |-----------|------------------------------------|
 | Chain ID  | `gon-flixnet-1`                    |
-| Denom     | `ujunox`                           |
+| Denom     | `uflix`                           |
 | RPC       | `http://65.21.93.56:26657`         |
 | gRPC      | `http://65.21.93.56:9090`          |
 | WebSocket | `ws://65.21.93.56:26657/websocket` |
