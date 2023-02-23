@@ -31,8 +31,8 @@ Coming soon...
 ### IRISnet
 
 | Type      | Value                               |
-|-----------|-------------------------------------|
-| Chain ID  | `gon-irishub-1`                        |
+| --------- | ----------------------------------- |
+| Chain ID  | `gon-irishub-1`                     |
 | Denom     | `uiris`                             |
 | RPC       | `http://34.80.93.133:26657`         |
 | gRPC      | `http://34.80.93.133:9090`          |
@@ -41,7 +41,7 @@ Coming soon...
 ### Stargaze
 
 | Type      | Value                                                |
-|-----------|------------------------------------------------------|
+| --------- | ---------------------------------------------------- |
 | Chain ID  | `elgafar-1`                                          |
 | Denom     | `ustars`                                             |
 | RPC       | `https://rpc.elgafar-1.stargaze-apis.com:443`        |
@@ -51,7 +51,7 @@ Coming soon...
 ### Juno
 
 | Type      | Value                                         |
-|-----------|-----------------------------------------------|
+| --------- | --------------------------------------------- |
 | Chain ID  | `uni-6`                                       |
 | Denom     | `ujunox`                                      |
 | RPC       | `https://rpc.uni.junonetwork.io:443`          |
@@ -60,10 +60,10 @@ Coming soon...
 
 ### Uptick
 
-| Type      | Value                                 |
-|-----------|---------------------------------------|
-| Chain ID  | `uptick_7000-1`                       |
-| Denom     | `auptick`                             |
+| Type      | Value                                |
+| --------- | ------------------------------------ |
+| Chain ID  | `uptick_7000-1`                      |
+| Denom     | `auptick`                            |
 | RPC       | `http://52.74.190.214:26657`         |
 | gRPC      | `http://52.74.190.214:9090`          |
 | WebSocket | `ws://52.74.190.214:26657/websocket` |
@@ -71,9 +71,9 @@ Coming soon...
 ### OmniFlix
 
 | Type      | Value                              |
-|-----------|------------------------------------|
+| --------- | ---------------------------------- |
 | Chain ID  | `gon-flixnet-1`                    |
-| Denom     | `uflix`                           |
+| Denom     | `uflix`                            |
 | RPC       | `http://65.21.93.56:26657`         |
 | gRPC      | `http://65.21.93.56:9090`          |
 | WebSocket | `ws://65.21.93.56:26657/websocket` |

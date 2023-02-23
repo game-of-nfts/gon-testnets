@@ -1,1 +1,0 @@
-# ERC-721 Instruction for Go Implementation
