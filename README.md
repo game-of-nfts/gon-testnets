@@ -15,6 +15,7 @@ Phase 1 of GoN is now open for registration and will kick off soon, and we have 
 - [Game of NFTs](#game-of-nfts)
   - [Overview](#overview)
   - [How to Join](#how-to-join)
+  - [Evidence](#evidence)
   - [Timeline](#timeline)
   - [Point System](#point-system)
     - [Tasks](#tasks)
@@ -47,7 +48,13 @@ There will be scoreboard, discord channel, and more supporting services to be pr
 
 Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform) to register in the Phase 1.
 
-After this, another form will be made available in the Discord channel to collect participants' addresses on testnets.
+After initial screening, participants will be invited to the #🐇┇gon-testnet channel in the Cosmos Discord Server to start coordinating your participation.
+
+## Evidence
+
+Before you start, please submit qualification evidence according to the guidance provided at [gon-evidence](https://github.com/game-of-nfts/gon-evidence).
+
+In order to verify the authenticity of identity, ensure fairness of the game, and protect participants' rights in receiving points and claiming rewards, please make sure to submit evidence as required.
 
 ## Timeline
 
