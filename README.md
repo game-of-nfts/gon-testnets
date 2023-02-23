@@ -56,6 +56,8 @@ Before you start, please submit qualification evidence according to the guidance
 
 In order to verify the authenticity of identity, ensure fairness of the game, and protect participants' rights in receiving points and claiming rewards, please make sure to submit evidence as required.
 
+*Please note that all submissions will be public, so please make sure to **create new addresses of test chains** to participate in the public testing.*
+
 ## Timeline
 
 The Incentivized Testnets will have 3 stages with different tasks.
@@ -122,6 +124,7 @@ To participate, please note that:
 
 The following behavior will result in disqualification from Game of NFTs Phase 1 Incentivized Testnets:
 - Registering multiple teams in order to win more testnet prizes than you otherwise would.
+- Copying or tampering with any information of other participants to join testing and win rewards.
 - Engaging in any prohibited behavior.
 
 
