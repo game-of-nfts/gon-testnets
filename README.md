@@ -1,6 +1,6 @@
 # Game of NFTs
 
-> Please note that this document is currently in DRAFT STATUS, and will be subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft, please join [Discord](https://discord.gg/cosmosnetwork) and let us know your feedback in channel `#nft-chat`.
+> (DELETE) Please note that this document is currently in DRAFT STATUS, and will be subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft, please join [Discord](https://discord.gg/cosmosnetwork) and let us know your feedback in channel `#nft-chat`.
 
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
 
@@ -15,6 +15,7 @@ Phase 1 of GoN is now open for registration and will kick off soon, and we have 
 - [Game of NFTs](#game-of-nfts)
   - [Overview](#overview)
   - [How to Join](#how-to-join)
+  - [Evidence](#evidence)
   - [Timeline](#timeline)
   - [Point System](#point-system)
     - [Tasks](#tasks)
@@ -48,7 +49,13 @@ There will be scoreboard, discord channel, and more supporting services to be pr
 
 Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform) to register in the Phase 1.
 
-After the initial screening, participants will be informed how to obtain the **formal qualification**.
+After initial screening, participants will be invited to the #🐇┇gon-testnet channel to begin coordinating your participation.
+
+<==
+
+## Evidence
+
+**TODO: 1)Qualification 2)Task Evidence 3)Link**
 
 ## Timeline
 
@@ -124,9 +131,8 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 ## Reference
 
-- [Evidence](./evidence/README.md)
 - [Instruction](./instruction/README.md)
-- Appendix
+- Appendix <=
   - [Channel Table](./appendix/channel-table.md)
   - [Flow Table](./appendix/flow-table.md)
   - [Testnet Info](./appendix/testnet-info.md)

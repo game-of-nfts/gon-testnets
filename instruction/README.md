@@ -21,7 +21,7 @@ This part instruct participants how to install binary, execute basic nft operati
 
 | Software | Branch | Version |
 | -- | -- |-- |
-| iris | v1.4.1-gon-testnet | 1.4.1-12-g4c4a6f3a |
+| iris | v1.4.1-gon-testnet | 1.4.1-gon-testnet |
 | starsd | v8.1.0 | 8.1.0 |
 | junod | v12.0.0 | v12.0.0 |
 | uptickd | v0.2.5 | v0.2.5 |

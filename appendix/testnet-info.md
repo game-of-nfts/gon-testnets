@@ -54,7 +54,7 @@ Coming soon...
 |-----------|-----------------------------------------------|
 | Chain ID  | `uni-6`                                       |
 | Denom     | `ujunox`                                      |
-| RPC       | `https://rpc.uni.junonetwork.io`              |
+| RPC       | `https://rpc.uni.junonetwork.io:443`          |
 | gRPC      | `http://juno-testnet-grpc.polkachu.com:12690` |
 | WebSocket | `wss://rpc.uni.junonetwork.io/websocket`      |
 
