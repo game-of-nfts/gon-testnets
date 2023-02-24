@@ -24,7 +24,13 @@ Coming soon...
 
 ### Discord
 
-Coming soon...
+| Chain    | Faucet Channel                       |
+| -------- | ------------------------------------ |
+| IRISnet  | <div align="center"> [Link]() </div> |
+| Stargaze | <div align="center"> [Link]() </div> |
+| Juno     | <div align="center"> [Link]() </div> |
+| Uptick   | <div align="center"> [Link]() </div> |
+| OmniFlix | <div align="center"> [Link]() </div> |
 
 ## Chain Information
 
