@@ -1,8 +1,10 @@
 # Instruction on Interchain NFT Transfer
 
+This section describes how to transfer NFTs between different chains. For NFT basic operations, please refer to [this doc](./instruction-erc721.md).
+
 ## SDK Implementation
 
-IRISnet, Uptick and OmniFlix use [nft-transfer](https://github.com/bianjieai/nft-transfer/tree/v1.1.1-beta) to implement Interchain NFT functionality. These chains share the same instruction in their clients. 
+IRISnet, Uptick and OmniFlix use [bianjieai/nft-transfer](https://github.com/bianjieai/nft-transfer/tree/v1.1.1-beta) to implement Interchain NFT functionality. These chains share the same instruction in their clients. 
 
 **Note, whether it is the original chain or the target chain, the portID of cross-chain transfer nft is fixed `nft-transfer`**
 
@@ -11,6 +13,7 @@ IRISnet, Uptick and OmniFlix use [nft-transfer](https://github.com/bianjieai/nft
 For cross-chain transfer nft, please execute the following command:
 
 ```bash
+# `simd` here refers to `iris`, `uptickd` and `omniflixhubd`.
 simd tx nft-transfer transfer \
 <src-chain-port> \
 <src-chain-channel> \
@@ -45,11 +48,12 @@ simd query nft-transfer escrow-address [port] [src-channel-id]
 
 ## CosmWasm Implementation
 
-Stargaze and Juno use [cosmwasm-ics721](https://github.com/public-awesome/ics721) to implement [ICS 721 speicification](https://github.com/cosmos/ibc/tree/main/spec/app/ics-721-nft-transfer) in CosmWasm.
+Stargaze and Juno use [public-awesome/ics721](https://github.com/public-awesome/ics721) to implement [ICS 721 speicification](https://github.com/cosmos/ibc/tree/main/spec/app/ics-721-nft-transfer) in CosmWasm.
 
 ### Transfer
 
 ```bash
+# `simd` here refers to `stard` and `junod`.*
 simd tx wasm execute <cw-721-addr> \
 {"send_nft": {"contract": "<ics-721-addr>", "token_id": "<token-id>", "msg": \ "<basa64_encoded_msg>"}}
 ```

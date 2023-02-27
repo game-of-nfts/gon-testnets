@@ -142,14 +142,15 @@ Coming soon...
 
 ### Award
 
-| Award              | Details                                                                                                                                         |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Best Auditor       | Find any unexpected critical issues that were not found through planned tasks.                                                                  |
-| Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. |
-| Community Star     | Provide most help for the game and participants.                                                                                                |
-| Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                        |
-| Best NFT Memes     | Create the most popular NFT memes.                                                                                                              |
-| ...                | ...                                                                                                                                             |
+| Id  | Points | Award              | Details                                                                                                                                                      |
+|-----|--------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | 1200   | Best Auditor       | Discover the most serious potential protocol and code vulnerabilities.                                                                                       |
+| 2   | 800    | Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. At most two. |
+| 3   | 350    | Community Star     | Provide most help for the game and participants.                                                                                                             |
+| 4   | 250    | Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                                     |
+| 5   | 200    | Bug Hunters        | Find bugs that affect functionality of ICS-721. At most five.                                                                                                |
+| 6   | 100    | Best NFT Memes     | Create the most popular NFT memes.                                                                                                                           |
+|     | ...    | ...                | ...                                                                                                                                                          |
 
 ## Rules
 
