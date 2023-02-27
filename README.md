@@ -1,14 +1,12 @@
 # Game of NFTs
 
-> Please note that this document is currently in DRAFT STATUS, and will be subject to changes as the event proceeds. We look forward to receiving feedbacks and ideas to help us update and improve this draft, please join [Discord](https://discord.gg/cosmosnetwork) and let us know your feedback in channel `#nft-chat`.
-
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
 
 The program includes two phases:
-- Phase 1 - Public Incentivized Testnets(Register Open)
-- Phase 2 - Hackathon(April 2023)
+- Phase 1 - Public Incentivized Testnets (Register Open)
+- Phase 2 - Hackathon (April 2023)
 
-Phase 1 of GoN is now open for registration and will kick off soon, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
+Phase 1 of GoN is now open for registration and will kick off at **2023-03-01-06:00 UTC**, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
 
 **Table of Contents**
 
@@ -17,20 +15,25 @@ Phase 1 of GoN is now open for registration and will kick off soon, and we have 
   - [How to Join](#how-to-join)
   - [Evidence](#evidence)
   - [Timeline](#timeline)
+    - [Stage 1: Welcome to GoN](#stage-1-welcome-to-gon)
+    - [Stage 2: Let's Dive into Interchain NFTs Transfer](#stage-2-lets-dive-into-interchain-nfts-transfer)
+    - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
   - [Point System](#point-system)
-    - [Tasks](#tasks)
+    - [General Tasks](#general-tasks)
+    - [Game Tasks](#game-tasks)
     - [Award](#award)
   - [Rules](#rules)
     - [Entry Requirements](#entry-requirements)
     - [Disqualification](#disqualification)
     - [Prohibited Behavior](#prohibited-behavior)
-  - [Quick Info](#quick-info)
+  - [Acknowledgements](#acknowledgements)
+  - [Documents](#documents)
 
 ## Overview
 
-Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of interesting attack vectors.	
+Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of attack vectors.	
 
-The testnet infrastructure will include:
+The [testnet infrastructure](doc/testnet-info.md) includes:
 
 - ICS721 SDK chain
 - ICS721 Wasm chain
@@ -62,39 +65,70 @@ In order to verify the authenticity of identity, ensure fairness of the game, an
 
 The Incentivized Testnets will have 3 stages with different tasks.
 
-**Stage 1: Welcome to GoN**
+### Stage 1: Welcome to GoN
 
-Duration: 3 days
+**Duration**: Mar 1-3
 
 - Create Collections and NFTs
-- Perfrom Interchain NFTs Transfer
-- ...
+- Perform Interchain NFTs Transfer
 
-**Stage 2: Let's Dive into Interchain NFTs Transfer**
+**Round 1: Warm-ups**
 
-Duration: 5 days
+IRISnet, Stargaze, Juno, Uptick and OmniFlix have prepared their testnets, allowing participants to create their collections and NFTs. These NFTs can be used for the next transfer tasks of the game, marking the first time participants can experience Interchain NFT Transfer.
+
+**Rules:** 
+- Participant issue their own classes and must set class data as the JSON string below
+- This allows participants to bind their classes to their GitHub account and prove they have the control of the class owner
+- All the following tasks related to NFT transfer must be minted under their classes
+
+```json
+{
+  "github_username": "username, this is a must",
+  "discord_handle": "discord handle, this is optional",
+  "team_name": "your team name, this is optional",
+  "community": "if you come from a community"
+}
+```
+
+**Tasks**：A1, A2, A3, A4, A5, A6
+
+
+### Stage 2: Let's Dive into Interchain NFTs Transfer
+
+Duration: Mar 6-10
 
 - Perform Interchain NFT Transfer through different flows
-- ...
 
 
-**Stage 3: Enjoy the Carnival of GoN**
+### Stage 3: Enjoy the Carnival of GoN
 
-Duration: 10 days
+Duration: Mar 13-24
 
 - Competitive race game
 - Quiz game
-- ...
 
 In addition to tasks, there will be contributor awards for rewarding community-contributed content and tools, i.e, auditing services, public goods, community supports, NFT memes.
 
 ## Point System
 
-### Tasks
+### General Tasks
+
+General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence that was generated before then (in fact the specified block height). Please note that details of flow and flow style in the task description can be found here.
+
+| Id  | Point | Task                                                            | Details                                                    | Evidence                                                                                               |
+|-----|-------|-----------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| A1  | 1     | Create one Collection on IRISnet                                | Must set ClassUri and ClassData                            | TxHash on IRISnet                                                                                      |
+| A2  | 1     | Mint NFTs on IRISnet                                            | Must set TokenUri and TokenData and mint at least two NFTs | TxHashes on IRISnet                                                                                    |
+| A3  | 1     | Transfer an NFT from IRISnet to Juno or Stargaze                | The NFT must be the one created in A2                      | TxHash on IRISnet <br> Destination Chain-ID <br> IBC ClassID+NFTID                                     |
+| A4  | 1     | Transfer an NFT from IRISnet to Uptick or OmniFlix              | The NFT must be the one created in A2                      | TxHash on IRISnet <br> Destination Chain-ID <br> IBC ClassID+NFTID                                     |
+| A5  | 1     | Transfer the NFT on Stargaze or Juno back to IRISnet            | The NFT must be the one transferred in A3                  | Chain-ID  <br>  NFT Transfer TxHash                                                                    |
+| A6  | 1     | Edit the NFT Uptick or OmniFlix and transfer it back to IRISnet | The NFT must be the one transferred in A4                  | TxHash on Uptick/Omniflix <br> Chain-ID <br> NFT Transfer TxHash <br> Latest TokenData on IRISnet <br> |
+| ... | ...   | ...                                                             | ...                                                        |
+
+
+### Game Tasks
 
 Coming soon...
-
-There will be more than 30 tasks with varying points depending on their difficulty level, featuring several racing themes.
 
 ### Award
 
@@ -135,7 +169,11 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 - Social engineering attacks against organizer-operated nodes. This includes but is not limited to phishing, compromising cloud account credentials, malware, and physical security attacks on data centers.
 - Exploiting application-level security vulnerabilities in Cosmos and Tendermint code.
 
-## Quick Info
+## Acknowledgements
+
+A number of people have helped us update and improve this repo.
+
+## Documents
 
 - [Installation](doc/installation.md)
 - [Instruction](doc/instruction.md)

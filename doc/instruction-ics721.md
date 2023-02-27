@@ -19,7 +19,7 @@ simd tx nft-transfer transfer \
 <nftID>  
 ```
 
-### Query
+### Class Hash
 
 When the nft is received by the target chain, a new class category will be generated according to the definition of ics721. For details, please refer to the [ics721 spec](https://github.com/cosmos/ibc/blob/main/spec/app/ics-721-nft-transfer/README.md). Of course, you can query the classID generated on the target chain with the following command
 
@@ -27,11 +27,15 @@ When the nft is received by the target chain, a new class category will be gener
 simd query nft-transfer class-hash <class-prefix>/<class-base-id>
 ```
 
+### Class Trace
+
 If you want to query the original information of cross-chain nft, you can use the following command
 
 ```bash
 simd query nft-transfer class-trace [class-hash] [flags]
 ```
+
+### Escrow Address
 
 When the nft cross-chain transfer to the destination chain is successful, the nft on the original chain will be hosted at the specified system account address, you can use the following command to query the system account address
 
@@ -50,7 +54,7 @@ simd tx wasm execute <cw-721-addr> \
 {"send_nft": {"contract": "<ics-721-addr>", "token_id": "<token-id>", "msg": \ "<basa64_encoded_msg>"}}
 ```
 
-In which the `<base6_encoded_msg>` should be the following JSON string encoded with base64.
+In which the `<base64_encoded_msg>` should be the following JSON string encoded with base64.
 
 ```json
 {

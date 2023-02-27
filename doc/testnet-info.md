@@ -14,7 +14,7 @@
 
 ## Explorer
 
-Coming soon...
+[GoN Explorer](https://gon.ping.pub/)
 
 ## Faucet
 
@@ -24,13 +24,13 @@ Coming soon...
 
 ### Discord
 
-| Chain    | Faucet Channel                       |
-| -------- | ------------------------------------ |
-| IRISnet  | <div align="center"> [Link]() </div> |
-| Stargaze | <div align="center"> [Link]() </div> |
-| Juno     | <div align="center"> [Link]() </div> |
-| Uptick   | <div align="center"> [Link]() </div> |
-| OmniFlix | <div align="center"> [Link]() </div> |
+| Chain    | Faucet Channel                                                                                          |
+| -------- | ------------------------------------------------------------------------------------------------------- |
+| IRISnet  | <div align="center"> [Link](https://discord.com/channels/806356514973548614/1075349392095203380) </div> |
+| Stargaze | <div align="center"> [Link](https://discord.com/channels/755548171941445642/940653213022031912) </div>  |
+| Juno     | <div align="center"> [Link](https://discord.com/channels/816256689078403103/842073995059003422) </div>  |
+| Uptick   | <div align="center"> [Link]() </div>                                                                    |
+| OmniFlix | <div align="center"> [Link](https://discord.com/channels/749707815106642022/1077229467249942530) </div> |
 
 ## Chain Information
 
