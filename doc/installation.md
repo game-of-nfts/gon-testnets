@@ -5,7 +5,7 @@ This section provides instructions for participants on how to install client sof
 To play the game, participants should use the specified versions of the following software:
 
 | Software                  | Branch             | Version           |
-| ------------------------- | ------------------ | ----------------- |
+|---------------------------|--------------------|-------------------|
 | [iris](#iris)             | v1.4.1-gon-testnet | 1.4.1-gon-testnet |
 | [starsd](#stargaze)       | v8.1.0             | 8.1.0             |
 | [junod](#juno)            | v12.0.0            | v12.0.0           |

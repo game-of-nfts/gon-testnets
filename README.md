@@ -1,3 +1,5 @@
+![Game of NFTs Logo](./asset/GoN.png)
+
 # Game of NFTs
 
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
@@ -27,19 +29,19 @@ Phase 1 of GoN is now open for registration and will kick off at **2023-03-01-06
     - [Disqualification](#disqualification)
     - [Prohibited Behavior](#prohibited-behavior)
   - [Acknowledgements](#acknowledgements)
-  - [Documents](#documents)
+  - [Reference Links](#reference-links)
 
 ## Overview
 
 Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of attack vectors.	
 
-The [testnet infrastructure](doc/testnet-info.md) includes:
+The testnet infrastructure includes:
 
-- ICS721 SDK chain
-- ICS721 Wasm chain
-- IBC relayers
-- Support services
-- Faucets
+- [ICS-721 Enabled SDK and Wasm Chains](./doc/testnet-info.md#chain-information)
+- [ICS-721 IBC Channels and Ports](./doc/port-channel-table.md)
+- [Support Services in Cosmos Discord](https://discord.com/channels/669268347736686612/1074987031270268958)
+- [Testnet Faucets](./doc/testnet-info.md#faucet)
+- [Testnet Explorers](./doc/testnet-info.md#explorer)
 
 Participants will utilize all GoN testnets for feature-testing, and for completing multiple tasks.
 
@@ -63,7 +65,9 @@ In order to verify the authenticity of identity, ensure fairness of the game, an
 
 ## Timeline
 
-The Incentivized Testnets will have 3 stages with different tasks.
+The Incentivized Testnets has 3 stages with different tasks. Tasks will be revealed gradually as the game progresses.
+
+Participants can refer [the installation doc](doc/installation.md) to install the client software and [the instruction doc](./doc/instruction-ics721.md) to get familiar with Interchain NFTs Transfer operations.
 
 ### Stage 1: Welcome to GoN
 
@@ -113,7 +117,7 @@ In addition to tasks, there will be contributor awards for rewarding community-c
 
 ### General Tasks
 
-General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence that was generated before then (in fact the specified block height). Please note that details of flow and flow style in the task description can be found here.
+General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence that was generated before then (in fact the specified block height). Please note that details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
 
 | Id  | Point | Task                                                            | Details                                                    | Evidence                                                                                               |
 |-----|-------|-----------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -123,7 +127,7 @@ General tasks allow participants to fully experience the NFT-transfer functional
 | A4  | 1     | Transfer an NFT from IRISnet to Uptick or OmniFlix              | The NFT must be the one created in A2                      | TxHash on IRISnet <br> Destination Chain-ID <br> IBC ClassID+NFTID                                     |
 | A5  | 1     | Transfer the NFT on Stargaze or Juno back to IRISnet            | The NFT must be the one transferred in A3                  | Chain-ID  <br>  NFT Transfer TxHash                                                                    |
 | A6  | 1     | Edit the NFT Uptick or OmniFlix and transfer it back to IRISnet | The NFT must be the one transferred in A4                  | TxHash on Uptick/Omniflix <br> Chain-ID <br> NFT Transfer TxHash <br> Latest TokenData on IRISnet <br> |
-| ... | ...   | ...                                                             | ...                                                        |
+| ... | ...   | ...                                                             | ...                                                        | ...                                                                                                    |
 
 
 ### Game Tasks
@@ -173,10 +177,11 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 A number of people have helped us update and improve this repo.
 
-## Documents
+## Reference Links
 
 - [Installation](doc/installation.md)
-- [Instruction](doc/instruction.md)
+- [Instruction](doc/instruction-ics721.md)
 - [Testnet Info](doc/testnet-info.md)
 - [Flow Table](doc/flow-table.md)
-- [Channel Table](doc/channel-table.md)
+- [Channel Table](doc/port-channel-table.md)
+- [Evidence Submission](https://github.com/game-of-nfts/gon-evidence)

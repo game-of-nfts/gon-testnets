@@ -14,22 +14,22 @@
 
 ## Explorer
 
-[GoN Explorer](https://gon.ping.pub/)
+[Ping.Pub Supported GoN Explorer](https://gon.ping.pub/)
 
 ## Faucet
 
 ### Website
 
-Coming soon...
+[PingPub Supported Unified Faucet Entrance](https://faucet.ping.pub/)
 
 ### Discord
 
 | Chain    | Faucet Channel                                                                                          |
-| -------- | ------------------------------------------------------------------------------------------------------- |
+|----------|---------------------------------------------------------------------------------------------------------|
 | IRISnet  | <div align="center"> [Link](https://discord.com/channels/806356514973548614/1075349392095203380) </div> |
 | Stargaze | <div align="center"> [Link](https://discord.com/channels/755548171941445642/940653213022031912) </div>  |
 | Juno     | <div align="center"> [Link](https://discord.com/channels/816256689078403103/842073995059003422) </div>  |
-| Uptick   | <div align="center"> [Link]() </div>                                                                    |
+| Uptick   | <div align="center"> [Link](https://discord.com/channels/781005936260939818/953652276508119060) </div>  |
 | OmniFlix | <div align="center"> [Link](https://discord.com/channels/749707815106642022/1077229467249942530) </div> |
 
 ## Chain Information
@@ -37,7 +37,7 @@ Coming soon...
 ### IRISnet
 
 | Type      | Value                               |
-| --------- | ----------------------------------- |
+|-----------|-------------------------------------|
 | Chain ID  | `gon-irishub-1`                     |
 | Denom     | `uiris`                             |
 | RPC       | `http://34.80.93.133:26657`         |
@@ -47,7 +47,7 @@ Coming soon...
 ### Stargaze
 
 | Type      | Value                                                |
-| --------- | ---------------------------------------------------- |
+|-----------|------------------------------------------------------|
 | Chain ID  | `elgafar-1`                                          |
 | Denom     | `ustars`                                             |
 | RPC       | `https://rpc.elgafar-1.stargaze-apis.com:443`        |
@@ -57,7 +57,7 @@ Coming soon...
 ### Juno
 
 | Type      | Value                                         |
-| --------- | --------------------------------------------- |
+|-----------|-----------------------------------------------|
 | Chain ID  | `uni-6`                                       |
 | Denom     | `ujunox`                                      |
 | RPC       | `https://rpc.uni.junonetwork.io:443`          |
@@ -66,18 +66,18 @@ Coming soon...
 
 ### Uptick
 
-| Type      | Value                                |
-| --------- | ------------------------------------ |
-| Chain ID  | `uptick_7000-1`                      |
-| Denom     | `auptick`                            |
-| RPC       | `http://52.74.190.214:26657`         |
-| gRPC      | `http://52.74.190.214:9090`          |
-| WebSocket | `ws://52.74.190.214:26657/websocket` |
+| Type      | Value                                 |
+|-----------|---------------------------------------|
+| Chain ID  | `uptick_7000-2`                       |
+| Denom     | `auptick`                             |
+| RPC       | `http://52.220.252.160:26657`         |
+| gRPC      | `http://52.220.252.160:9090`          |
+| WebSocket | `ws://52.220.252.160:26657/websocket` |
 
 ### OmniFlix
 
 | Type      | Value                              |
-| --------- | ---------------------------------- |
+|-----------|------------------------------------|
 | Chain ID  | `gon-flixnet-1`                    |
 | Denom     | `uflix`                            |
 | RPC       | `http://65.21.93.56:26657`         |

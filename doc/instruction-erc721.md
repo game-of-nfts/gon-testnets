@@ -1,4 +1,4 @@
-# Instruction on IRISnet NFT
+# Instruction on NFT Basic Operations
 
 ## Client
 
