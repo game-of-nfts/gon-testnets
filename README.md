@@ -5,17 +5,17 @@
 Game of NFTs (GoN) is a program that provides public environments where the Interchain NFT Transfer technology can be extensively tested with community support and innovations can be created pioneeringly.
 
 The program includes two phases:
-- Phase 1 - Public Incentivized Testnets (Register Open)
+- **Phase 1 - Public Incentivized Testnets (Kick Off Now!)**
 - Phase 2 - Hackathon (April 2023)
 
-Phase 1 of GoN is now open for registration and will kick off at **2023-03-01-06:00 UTC**, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards. There will be a series of testing tasks and dedicated awards (more details to come).
+Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number of tasks and rewards scheduled. Rewards will be distributed based on a point system, and allocated to winners who have completed certain tasks and submit an entry for dedicated awards.
 
 **Table of Contents**
 
 - [Game of NFTs](#game-of-nfts)
   - [Overview](#overview)
-  - [How to Join](#how-to-join)
-  - [Evidence](#evidence)
+  - [Join & Evidence Submission](#join--evidence-submission)
+  - [Disclaimers](#disclaimers)
   - [Timeline](#timeline)
     - [Stage 1: Welcome to GoN](#stage-1-welcome-to-gon)
     - [Stage 2: Let's Dive into Interchain NFTs Transfer](#stage-2-lets-dive-into-interchain-nfts-transfer)
@@ -45,23 +45,29 @@ The testnet infrastructure includes:
 
 Participants will utilize all GoN testnets for feature-testing, and for completing multiple tasks.
 
-💬 Event coordinators will be available in the [Cosmos Network Discord](https://discord.gg/cosmosnetwork)  #🎨・GAME-OF-NFTS
+💬 Event coordinators will be available in the [Cosmos Network Discord](https://discord.gg/cosmosnetwork) #🐇┇gon-testnet channel
 
-There will be scoreboard, discord channel, and more supporting services to be provided during the event.
+📍 A leaderboard will be available at https://interchainnfts.dev/gon/scorecard.html
 
-## How to Join
+## Join & Evidence Submission
 
-Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform) to register in the Phase 1.
+According to information provided via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform), eligible participants have been invited into [Cosmos Network Discord](https://discord.gg/cosmosnetwork) #🐇┇gon-testnet channel to start coordinating your participation.
 
-After initial screening, participants will be invited to the #🐇┇gon-testnet channel in the Cosmos Discord Server to start coordinating your participation.
-
-## Evidence
-
-Before you start, please submit qualification evidence according to the guidance provided at [gon-evidence](https://github.com/game-of-nfts/gon-evidence).
+Before you start competition, please kindly check the join & evidence submission guidance provided at [gon-evidence](https://github.com/game-of-nfts/gon-evidence).
+ - Step 1. You need to submit [qualification evidence](https://github.com/game-of-nfts/gon-evidence#qualification-evidence-submission) to upload basic infomation
+ - Step 2. After that, you need to add each [task evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission) into your own `info` sheet as required and submit for verification and scoring
+ - Step 3. For special award application, you should submit issues based on [award evidence](https://github.com/game-of-nfts/gon-evidence#award-application) for judging
+ - Step 4. During the testing phase, if you find a bug/issue, please report based on [bug submission](https://github.com/game-of-nfts/gon-evidence#bug-submission)
 
 In order to verify the authenticity of identity, ensure fairness of the game, and protect participants' rights in receiving points and claiming rewards, please make sure to submit evidence as required.
 
 *Please note that all submissions will be public, so please make sure to **create new addresses of test chains** to participate in the public testing.*
+
+## Disclaimers
+ 1. The final number of points awarded to each participant is at the discretion of the testnet judges.
+ 2. The timeline for all stages and rounds may change depending on the outcome of previous activities.
+ 3. Available tasks/awards and points may be adjusted during the course of the testnet program.
+ 4. All evidence submitted for points must be submitted to [gon-evidence](https://github.com/game-of-nfts/gon-evidence) as required.
 
 ## Timeline
 
