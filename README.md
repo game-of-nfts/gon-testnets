@@ -183,7 +183,7 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 ## Acknowledgements
 
-We are grateful to the individuals who have contributed their time and expertise to assist us in updating and enhancing this repo.
+We are grateful to the individuals and teams who have contributed their time and expertise to assist in updating and enhancing this repo.
 
 ## Reference Links
 
