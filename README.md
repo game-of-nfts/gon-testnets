@@ -14,7 +14,7 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
 
 - [Game of NFTs](#game-of-nfts)
   - [Overview](#overview)
-  - [Join & Evidence Submission](#join--evidence-submission)
+  - [Join \& Evidence Submission](#join--evidence-submission)
   - [Disclaimers](#disclaimers)
   - [Timeline](#timeline)
     - [Stage 1: Welcome to GoN](#stage-1-welcome-to-gon)
@@ -87,9 +87,10 @@ Participants can refer [the installation doc](doc/installation.md) to install th
 IRISnet, Stargaze, Juno, Uptick and OmniFlix have prepared their testnets, allowing participants to create their collections and NFTs. These NFTs can be used for the next transfer tasks of the game, marking the first time participants can experience Interchain NFT Transfer.
 
 **Rules:** 
-- Participant issue their own classes and must set class data as the JSON string below
+- Participant issue their own classes(collections, denoms) and must set class data as the JSON string below
 - This allows participants to bind their classes to their GitHub account and prove they have the control of the class owner
 - All the following tasks related to NFT transfer must be minted under their classes
+- Class owner must be the IRISnet address of each paritipant at the time of registration
 
 ```json
 {
@@ -126,7 +127,7 @@ In addition to tasks, there will be contributor awards for rewarding community-c
 General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence that was generated before then (in fact the specified block height). Please note that details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
 
 | Id  | Point | Task                                                            | Details                                                    | Evidence                                                                                               |
-|-----|-------|-----------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| --- | ----- | --------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | A1  | 1     | Create one Collection on IRISnet                                | Must set ClassUri and ClassData                            | TxHash on IRISnet                                                                                      |
 | A2  | 1     | Mint NFTs on IRISnet                                            | Must set TokenUri and TokenData and mint at least two NFTs | TxHashes on IRISnet                                                                                    |
 | A3  | 1     | Transfer an NFT from IRISnet to Juno or Stargaze                | The NFT must be the one created in A2                      | TxHash on IRISnet <br> Destination Chain-ID <br> IBC ClassID+NFTID                                     |
@@ -143,7 +144,7 @@ Coming soon...
 ### Award
 
 | Id  | Points | Award              | Details                                                                                                                                                      |
-|-----|--------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | ------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1   | 1200   | Best Auditor       | Discover the most serious potential protocol and code vulnerabilities.                                                                                       |
 | 2   | 800    | Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. At most two. |
 | 3   | 350    | Community Star     | Provide most help for the game and participants.                                                                                                             |

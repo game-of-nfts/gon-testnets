@@ -4,12 +4,12 @@ This section provides instructions for participants on how to install client sof
 
 To play the game, participants should use the specified versions of the following software:
 
-| Software                  | Branch             | Version           |
-|---------------------------|--------------------|-------------------|
+| Software                  | Tag                | Version           |
+| ------------------------- | ------------------ | ----------------- |
 | [iris](#iris)             | v1.4.1-gon-testnet | 1.4.1-gon-testnet |
 | [starsd](#stargaze)       | v8.1.0             | 8.1.0             |
 | [junod](#juno)            | v12.0.0            | v12.0.0           |
-| [uptickd](#uptick)        | v0.2.5             | v0.2.5            |
+| [uptickd](#uptick)        | v0.2.6             | v0.2.6            |
 | [omniflixhubd](#omniflix) | v0.9.0-gon-test    | 0.9.0-gon-test    |
 
 ## Prerequisite
@@ -100,8 +100,7 @@ To install `uptickd` client, follow the steps below:
 
 ```bash
 git clone https://github.com/UptickNetwork/uptick.git
-cd irishub
-git checkout v0.2.5
+cd uptick
 make install
 ```
 
