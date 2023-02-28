@@ -51,9 +51,9 @@ Participants will utilize all GoN testnets for feature-testing, and for completi
 
 ## Join & Evidence Submission
 
-According to information provided via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform), eligible participants have been invited into [Cosmos Network Discord](https://discord.gg/cosmosnetwork) #🐇┇gon-testnet channel to start coordinating your participation.
+According to information provided via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSfIhkXzOUTNu5R2cueCSt-_0Dic4MdsF193I9GSx64YTqNyWw/viewform), eligible participants have been invited into [Cosmos Network Discord](https://discord.gg/cosmosnetwork) #🐇┇gon-testnet channel to start coordinating their participation.
 
-Before you start competition, please kindly check the join & evidence submission guidance provided at [gon-evidence](https://github.com/game-of-nfts/gon-evidence).
+Before you start testing, please kindly check the join & evidence submission guidance provided at [gon-evidence](https://github.com/game-of-nfts/gon-evidence).
  - Step 1. You need to submit [qualification evidence](https://github.com/game-of-nfts/gon-evidence#qualification-evidence-submission) to upload basic infomation
  - Step 2. After that, you need to add each [task evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission) into your own `info` sheet as required and submit for verification and scoring
  - Step 3. For special award application, you should submit issues based on [award application](https://github.com/game-of-nfts/gon-evidence#award-application) for judging
@@ -67,7 +67,7 @@ In order to verify the authenticity of identity, ensure fairness of the game, an
  1. The final number of points awarded to each participant is at the discretion of the testnet judges.
  2. The timeline for all stages and rounds may change depending on the outcome of previous activities.
  3. Available tasks/awards and points may be adjusted during the course of the testnet program.
- 4. All evidence submitted for points must be submitted to [gon-evidence](https://github.com/game-of-nfts/gon-evidence) as required.
+ 4. All evidence submitted for scoring points must be submitted to [gon-evidence](https://github.com/game-of-nfts/gon-evidence) as required.
 
 ## Timeline
 
@@ -124,7 +124,7 @@ In addition to tasks, there will be contributor awards for rewarding community-c
 
 ### General Tasks
 
-General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence that was generated before then (in fact the specified block height). Please note that details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
+General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence generated before then (based on the specified block height). Details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
 
 | Id  | Point | Task                                                            | Details                                                    | Evidence                                                                                               |
 | --- | ----- | --------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -155,15 +155,15 @@ Coming soon...
 
 ## Rules
 
-The Game of NFTs Phase 1 testnets aim to provide mainnet-like environments for participants to better understand and become familiar with Interchain NFTs, and idenetify potential issues. Breaking the rules listed below will result in disqualification.
+The Game of NFTs Phase 1 testing aims to provide mainnet-like environments for participants to better understand and become familiar with Interchain NFTs, and idenetify potential issues. Breaking the rules listed below will result in disqualification.
 
 The rules for Game of NFTs Phase 1 are subject to change at any time through launch, and any changes will be committed here.
 
 ### Entry Requirements
 To participate, please note that: 
 
-- Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards. (There may be more organizer teams involving in Phase 1, according to future coordination)
-- GitHub account has been registered more than one year.
+- Employees of Organizer Teams (IRISnet, Stargaze, Juno, Uptick, OmniFlix) are eligible to participate, but ineligible for rewards.
+- GitHub account used for testing must be registered more than one year.
 
 
 ### Disqualification
@@ -183,7 +183,7 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 ## Acknowledgements
 
-A number of people have helped us update and improve this repo.
+We are grateful to the individuals who have contributed their time and expertise to assist us in updating and enhancing this repo.
 
 ## Reference Links
 
