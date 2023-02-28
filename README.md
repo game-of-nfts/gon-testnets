@@ -33,7 +33,7 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
 
 ## Overview
 
-Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of attack vectors.	
+Through the several rounds, participants are expected to gain knowledge and build an understanding of the Interchain NFTs feature and assist in the discovery of interesting attack vectors.	
 
 The testnet infrastructure includes:
 
@@ -88,9 +88,9 @@ IRISnet, Stargaze, Juno, Uptick and OmniFlix have prepared their testnets, allow
 
 **Rules:** 
 - Participant issue their own classes(collections, denoms) and must set class data as the JSON string below
-- This allows participants to bind their classes to their GitHub account and prove they have the control of the class owner
+- This allows participants to bind their classes to their GitHub account and prove they have control of the class owner
 - All the following tasks related to NFT transfer must be minted under their classes
-- Class owner must be the IRISnet address of each paritipant at the time of registration
+- Class owner must be the IRISnet address of each pariticipant at the time of registration
 
 ```json
 {
@@ -126,15 +126,15 @@ In addition to tasks, there will be contributor awards for rewarding community-c
 
 General tasks allow participants to fully experience the NFT-transfer functionality. These tasks will be locked once the 3rd stage has begun, participants must submit evidence generated before then (based on the specified block height). Details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
 
-| Id  | Point | Task                                                            | Details                                                    | Evidence                                                                                               |
-| --- | ----- | --------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| A1  | 1     | Create one Collection on IRISnet                                | Must set ClassUri and ClassData                            | TxHash on IRISnet                                                                                      |
-| A2  | 1     | Mint NFTs on IRISnet                                            | Must set TokenUri and TokenData and mint at least two NFTs | TxHashes on IRISnet                                                                                    |
-| A3  | 1     | Transfer an NFT from IRISnet to Juno or Stargaze                | The NFT must be the one created in A2                      | TxHash on IRISnet <br> Destination Chain-ID <br> IBC ClassID+NFTID                                     |
-| A4  | 1     | Transfer an NFT from IRISnet to Uptick or OmniFlix              | The NFT must be the one created in A2                      | TxHash on IRISnet <br> Destination Chain-ID <br> IBC ClassID+NFTID                                     |
-| A5  | 1     | Transfer the NFT on Stargaze or Juno back to IRISnet            | The NFT must be the one transferred in A3                  | Chain-ID  <br>  NFT Transfer TxHash                                                                    |
-| A6  | 1     | Edit the NFT Uptick or OmniFlix and transfer it back to IRISnet | The NFT must be the one transferred in A4                  | TxHash on Uptick/Omniflix <br> Chain-ID <br> NFT Transfer TxHash <br> Latest TokenData on IRISnet <br> |
-| ... | ...   | ...                                                             | ...                                                        | ...                                                                                                    |
+| Id  | Point | Task                                                   | Details                                                                                     | Evidence                                                             |
+|-----|-------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| A1  | 1     | Create one Collection on IRISnet                       | Must set ClassUri and ClassData                                                             | TxHash on IRISnet                                                    |
+| A2  | 1     | Mint NFTs on IRISnet                                   | Must set TokenUri and TokenData and mint at least two NFTs                                  | TxHashes on IRISnet                                                  |
+| A3  | 1     | Transfer an NFT from IRISnet to Juno or Stargaze       | The NFT must be the one created in A2                                                       | TxHash on IRISnet <br> Destination Chain-ID <br> Contract-Addr+NFTID |
+| A4  | 1     | Transfer an NFT from IRISnet to Uptick or OmniFlix     | The NFT must be the one created in A2                                                       | TxHash on IRISnet <br> Destination Chain-ID <br> IBC-ClassID+NFTID   |
+| A5  | 1     | Transfer the NFT on Stargaze or Juno back to IRISnet   | The NFT must be the one transferred in A3 <br> Transfer back through the same channel in A3 | TxHash on Stargaze/Juno <br> Chain-ID                                |
+| A6  | 1     | Transfer the NFT on Uptick or OmniFlix back to IRISnet | The NFT must be the one transferred in A4 <br> Transfer back through the same channel in A4 | TxHash on Uptick/OmniFlix <br> Chain-ID                              |
+| ... | ...   | ...                                                    | ...                                                                                         | ...                                                                  |
 
 
 ### Game Tasks
@@ -144,12 +144,12 @@ Coming soon...
 ### Award
 
 | Id  | Points | Award              | Details                                                                                                                                                      |
-| --- | ------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|-----|--------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | 1200   | Best Auditor       | Discover the most serious potential protocol and code vulnerabilities.                                                                                       |
 | 2   | 800    | Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. At most two. |
-| 3   | 350    | Community Star     | Provide most help for the game and participants.                                                                                                             |
+| 3   | 350    | Community Star     | Provide the most help for the game and participants.                                                                                                         |
 | 4   | 250    | Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                                     |
-| 5   | 200    | Bug Hunters        | Find bugs that affect functionality of ICS-721. At most five.                                                                                                |
+| 5   | 200    | Bug Hunters        | Find bugs that affect the functionality of ICS-721. At most five.                                                                                            |
 | 6   | 100    | Best NFT Memes     | Create the most popular NFT memes.                                                                                                                           |
 |     | ...    | ...                | ...                                                                                                                                                          |
 
