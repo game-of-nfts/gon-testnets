@@ -47,7 +47,7 @@ Participants will utilize all GoN testnets for feature-testing, and for completi
 
 💬 Event coordinators will be available in the [Cosmos Network Discord](https://discord.gg/cosmosnetwork) #🐇┇gon-testnet channel
 
-📍 A leaderboard will be available at https://interchainnfts.dev/gon/scorecard.html
+📍 A leaderboard will be available at https://interchainnfts.dev/gon/scoreboard.html
 
 ## Join & Evidence Submission
 
