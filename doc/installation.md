@@ -41,6 +41,11 @@ echo "export GOPROXY=https://goproxy.io" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+## Install dependencies
+```
+sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
+```
+
 ## Clients
 
 ### Iris
