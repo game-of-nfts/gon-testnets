@@ -10,7 +10,7 @@ To play the game, participants should use the specified versions of the followin
 | [starsd](#stargaze)       | v8.1.0             | 8.1.0             |
 | [junod](#juno)            | v12.0.0            | v12.0.0           |
 | [uptickd](#uptick)        | v0.2.6             | v0.2.6            |
-| [omniflixhubd](#omniflix) | v0.9.0-gon-test2    | 0.9.0-gon-test2    |
+| [omniflixhubd](#omniflix) | v0.9.0-gon-test2   | v0.9.0-gon-test2  |
 
 ## Prerequisite
 
