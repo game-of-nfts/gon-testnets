@@ -14,6 +14,8 @@ As an example, if you had an NFT class with the ID "testclass01" on IRISnet and 
 
 Another example, if we with the same NFT class sent an NFT to Stargaze from port `nft-transfer` and channel `channel-22`, on Stargaze the destination port would be `wasm.stars1ve46fjrhcrum94c7d8yc2wsdz8cpuw73503e8qn9r44spr6dw0lsvmvtqh` and the channel `channel-207`. In this case, the `<nft-transfer-trace>` would be `wasm.stars1ve46fjrhcrum94c7d8yc2wsdz8cpuw73503e8qn9r44spr6dw0lsvmvtqh/channel-207/testclass01`. 
 
+![Ibc Transfer Trace](./../asset/ibc-transfer-trace.png "IBC Transfer Trace")
+
 ## SDK Implementation
 
 IRISnet, Uptick and OmniFlix use [bianjieai/nft-transfer](https://github.com/bianjieai/nft-transfer/tree/v1.1.1-beta) to implement Interchain NFT functionality. These chains share the same instruction in their clients. 
