@@ -77,7 +77,7 @@ Participants can refer [the installation doc](doc/installation.md) to install th
 
 ### Stage 1: Welcome to GoN
 
-**Duration**: Mar 1-3
+Start from **Mar 1**
 
 - Create Collections and NFTs
 - Perform Interchain NFTs Transfer
@@ -106,14 +106,14 @@ IRISnet, Stargaze, Juno, Uptick and OmniFlix have prepared their testnets, allow
 
 ### Stage 2: Let's Dive into Interchain NFTs Transfer
 
-Duration: Mar 6-10
+Expected to start from **Mar 6**
 
 - Perform Interchain NFT Transfer through different flows
 
 
 ### Stage 3: Enjoy the Carnival of GoN
 
-Duration: Mar 13-24
+Expected to start from **Mar 13**
 
 - Competitive race game
 - Quiz game
