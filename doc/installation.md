@@ -10,7 +10,7 @@ To play the game, participants should use the specified versions of the followin
 | [starsd](#stargaze)       | v8.1.0             | 8.1.0             |
 | [junod](#juno)            | v12.0.0            | v12.0.0           |
 | [uptickd](#uptick)        | v0.2.6             | v0.2.6            |
-| [omniflixhubd](#omniflix) | v0.9.0-gon-test    | 0.9.0-gon-test    |
+| [omniflixhubd](#omniflix) | v0.9.0-gon-test2   | v0.9.0-gon-test2  |
 
 ## Prerequisite
 
@@ -122,7 +122,7 @@ To install `omniflixhubd` client, follow the steps below:
 ```bash
 git clone https://github.com/OmniFlix/omniflixhub.git
 cd omniflixhub
-git checkout v0.9.0-gon-test
+git checkout v0.9.0-gon-test2
 make install
 ```
 
