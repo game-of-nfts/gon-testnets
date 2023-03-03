@@ -3,7 +3,7 @@
 - [Testnet Information](#testnet-information)
   - [Explorer](#explorer)
   - [Faucet](#faucet)
-    - [Website](#website)
+    - [Site](#ite)
     - [Discord](#discord)
   - [Chain Information](#chain-information)
     - [IRISnet](#irisnet)
@@ -14,13 +14,14 @@
 
 ## Explorer
 
-[Ping.Pub Supported GoN Explorer](https://gon.ping.pub/)
+[GoN Explorer - Contributed by Ping.pub](https://gon.ping.pub/)
+[GoN Dashboard - Contributed by OmniFlix](https://gon.omniflix.studio/))
 
 ## Faucet
 
-### Website
+### Site
 
-[PingPub Supported Unified Faucet Entrance](https://faucet.ping.pub/)
+[Integrated Faucet Entrance - Contributed by Ping.pub](https://faucet.ping.pub/)
 
 ### Discord
 
