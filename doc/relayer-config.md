@@ -331,6 +331,54 @@ paths:
         src-channel-filter:
             rule: ""
             channel-list: []
+    gon-flixnet-1_channel-24-gon-irishub-1_channel-0:
+        src:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-40
+            connection-id: connection-37
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-0
+            connection-id: connection-0
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    gon-flixnet-1_channel-25-gon-irishub-1_channel-1:
+        src:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-41
+            connection-id: connection-38
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-1
+            connection-id: connection-1
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    gon-flixnet-1_channel-41-uptick_7000-2_channel-5:
+        src:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-60
+            connection-id: connection-56
+        dst:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-28
+            connection-id: connection-27
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    gon-flixnet-1_channel-42-uptick_7000-2_channel-9:
+        src:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-61
+            connection-id: connection-57
+        dst:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-31
+            connection-id: connection-30
+        src-channel-filter:
+            rule: ""
+            channel-list: []
     gon-irishub-1_channel-0-gon-flixnet-1_channel-24:
         src:
             chain-id: gon-irishub-1
@@ -451,6 +499,78 @@ paths:
         src-channel-filter:
             rule: ""
             channel-list: []
+    uni-6_channel-89-gon-irishub-1_channel-24:
+        src:
+            chain-id: uni-6
+            client-id: 07-tendermint-84
+            connection-id: connection-92
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-22
+            connection-id: connection-23
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uni-6_channel-90-gon-irishub-1_channel-25:
+        src:
+            chain-id: uni-6
+            client-id: 07-tendermint-85
+            connection-id: connection-93
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-23
+            connection-id: connection-24
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uni-6_channel-86-uptick_7000-2_channel-7:
+        src:
+            chain-id: uni-6
+            client-id: 07-tendermint-81
+            connection-id: connection-89
+        dst:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-30
+            connection-id: connection-29
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uni-6_channel-88-uptick_7000-2_channel-13:
+        src:
+            chain-id: uni-6
+            client-id: 07-tendermint-83
+            connection-id: connection-91
+        dst:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-36
+            connection-id: connection-35
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uni-6_channel-91-gon-flixnet-1_channel-46:
+        src:
+            chain-id: uni-6
+            client-id: 07-tendermint-86
+            connection-id: connection-94
+        dst:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-66
+            connection-id: connection-61
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uni-6_channel-92-gon-flixnet-1_channel-47:
+        src:
+            chain-id: uni-6
+            client-id: 07-tendermint-87
+            connection-id: connection-95
+        dst:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-68
+            connection-id: connection-62
+        src-channel-filter:
+            rule: ""
+            channel-list: []
     uptick_7000-2_channel-5-gon-flixnet-1_channel-41:
         src:
             chain-id: uptick_7000-2
@@ -520,6 +640,126 @@ paths:
             chain-id: uni-6
             client-id: 07-tendermint-83
             connection-id: connection-91
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uptick_7000-2_channel-3-gon-irishub-1_channel-17:
+        src:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-26
+            connection-id: connection-25
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-17
+            connection-id: connection-17
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    uptick_7000-2_channel-4-gon-irishub-1_channel-19:
+        src:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-27
+            connection-id: connection-26
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-18
+            connection-id: connection-19
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-209-gon-flixnet-1_channel-44:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-186
+            connection-id: connection-175
+        dst:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-64
+            connection-id: connection-59
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-210-gon-flixnet-1_channel-45:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-187
+            connection-id: connection-176
+        dst:
+            chain-id: gon-flixnet-1
+            client-id: 07-tendermint-65
+            connection-id: connection-60
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-207-gon-irishub-1_channel-22:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-184
+            connection-id: connection-173
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-20
+            connection-id: connection-21
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-208-gon-irishub-1_channel-23:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-185
+            connection-id: connection-174
+        dst:
+            chain-id: gon-irishub-1
+            client-id: 07-tendermint-21
+            connection-id: connection-22
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-211-uni-6_channel-93:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-188
+            connection-id: connection-177
+        dst:
+            chain-id: uni-6
+            client-id: 07-tendermint-88
+            connection-id: connection-96
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-213-uni-6_channel-94:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-189
+            connection-id: connection-179
+        dst:
+            chain-id: uni-6
+            client-id: 07-tendermint-89
+            connection-id: connection-97
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-203-uptick_7000-2_channel-6:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-179
+            connection-id: connection-169
+        dst:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-29
+            connection-id: connection-28
+        src-channel-filter:
+            rule: ""
+            channel-list: []
+    elgafar-1_channel-206-uptick_7000-2_channel-12:
+        src:
+            chain-id: elgafar-1
+            client-id: 07-tendermint-183
+            connection-id: connection-172
+        dst:
+            chain-id: uptick_7000-2
+            client-id: 07-tendermint-35
+            connection-id: connection-34
         src-channel-filter:
             rule: ""
             channel-list: []
