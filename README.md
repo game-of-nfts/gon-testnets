@@ -138,7 +138,7 @@ In addition to tasks, there will be contributor awards for rewarding community-c
 
 ### General Tasks
 
-General tasks allow participants to fully experience the NFT-transfer functionality. The deadline for the tasks originally due on the 13th will be extended to the 27th, considering that more testing would be better.~~These tasks will be locked once the 3rd stage has begun.~~ Participants must submit evidence generated before then (based on the specified block height). Details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
+General tasks allow participants to fully experience the NFT-transfer functionality. The deadline for the general task submissions (stage 1&2) originally due on the 13th will be extended to around 27th, considering that more testing would be better.~~These tasks will be locked once the 3rd stage has begun.~~ Participants must submit evidence generated before then (based on the specified block height). Details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
 
 | Id  | Point | Task                                                   | Details                                                                                     | Evidence                                                             |
 | --- | ----- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
