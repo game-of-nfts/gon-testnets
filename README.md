@@ -20,6 +20,7 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
     - [Stage 1: Welcome to GoN](#stage-1-welcome-to-gon)
     - [Stage 2: Let's Dive into Interchain NFTs Transfer](#stage-2-lets-dive-into-interchain-nfts-transfer)
     - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
+      - [**Round 3: Competitive Individual Race**](#round-3-competitive-individual-race)
   - [Point System](#point-system)
     - [General Tasks](#general-tasks)
     - [Game Tasks](#game-tasks)
@@ -127,12 +128,34 @@ Participants complete Interchain NFTs Transfer independently, which means they n
 
 ### Stage 3: Enjoy the Carnival of GoN
 
-Expected to start from **Mar 13**
+Started from **Mar 13**
 
-- Competitive race game
-- Quiz game
+#### **Round 3: Competitive Individual Race**
 
-In addition to tasks, there will be contributor awards for rewarding community-contributed content and tools, i.e, auditing services, public goods, community supports, NFT memes.
+Participants receive NFT airdrops on IRISnet and perform Interchain NFT Transfer through specified flows in Task Data. The airdrop has two rounds: In the first round, all participants go through the same flow, and in the second round, all participants go through different flows.
+
+The first round airdrop will start at around 2023-03-15-06:00 UTC, and the second round airdrop will start at around 2023-03-16-06:00 UTC.
+
+**Task Data:**
+```
+{
+	"type": "individual race round",
+	"flow": "the flow id, check flow with flow-id on https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md",
+  "last_owner": "the ultimate owner of this NFT",
+	"start_height": "transfer before this height are considered valid"
+}
+```
+
+**Rules:**
+- The `flow` can be queryied with `flow-id` [here](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). 
+- The `start_height` is the block height on IRISnet. Any transfer prior to the `start_height` will be considered invalid.
+- Participants must use their own account addresses provided at the registration stage.
+- The `last_owner` is an official address on IRISnet. After finishing the interchain NFT transfer, every participant transfer the NFT to `last_owner` then complete the race.
+- Considering the time zone difference, the completion time is calculated by the difference in height between the last NFT transfer (to the `last_owner`) and the first interchain NFT transfer on IRISnet.
+- The participant with the smallest difference in block height will rank higher, and in case of a tie, the ranking will be based on the height of the last transfer, with the participant having the lower height ranking higher.
+- The end of round 3 will be at `2023-03-17-23:59:59 UTC`. The height of evidence will be considered invalid if completed after the corresponding block height.
+
+**Tasks:** B1, B2, B3, B4
 
 ## Point System
 
@@ -165,7 +188,15 @@ General tasks allow participants to fully experience the NFT-transfer functional
 
 ### Game Tasks
 
-Coming soon...
+For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission)
+
+| #   | Point | Task                                         | Details                                             |
+| --- | ----- | -------------------------------------------- | --------------------------------------------------- |
+| B1  | 5     | Competitive! Individual Race Round 1         | Each participant will go through the same flow      |
+| B2  | 5     | Competitive! Individual Race Round 2         | Each participant will go through the different flow |
+| B3  | 50    | Competitive! Individual Race Round 1 Winners | The top 10 participants will get 50 points each.    |
+| B4  | 50    | Competitive! Individual Race Round 2 Winners | The top 10 participants will get 50 points each.    |
+| ... | ...   | ...                                          | ...                                                 |
 
 ### Award
 
@@ -177,7 +208,6 @@ Coming soon...
 | 4   | 250    | Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                                     |
 | 5   | 200    | Bug Hunters        | Find bugs that affect the functionality of ICS-721. At most five.                                                                                            |
 | 6   | 100    | Best NFT Memes     | Create the most popular NFT memes.                                                                                                                           |
-|     | ...    | ...                | ...                                                                                                                                                          |
 
 ## Rules
 
