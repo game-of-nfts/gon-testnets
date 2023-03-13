@@ -130,11 +130,15 @@ Participants complete Interchain NFTs Transfer independently, which means they n
 
 Started from **Mar 13**
 
+- Competitive individual race
+- Quiz game
+- ...
+
 #### **Round 3: Competitive Individual Race**
 
 Participants receive NFT airdrops on IRISnet and perform Interchain NFT Transfer through specified flows in Task Data. The airdrop has two rounds: In the first round, all participants go through the same flow, and in the second round, all participants go through different flows.
 
-The first round airdrop will start at around 2023-03-15-06:00 UTC, and the second round airdrop will start at around 2023-03-16-06:00 UTC.
+The first round airdrop will start at around 2023-03-15-06:00 UTC, and the second round airdrop will start at around 2023-03-16-06:00 UTC. Before that, participants can prepare their strategies. Please make sure that you have been added to the `gon-evidence` repository and your information is correct, otherwise, you may not receive the airdrop!
 
 **Task Data:**
 ```
