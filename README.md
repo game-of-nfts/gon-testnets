@@ -20,7 +20,6 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
     - [Stage 1: Welcome to GoN](#stage-1-welcome-to-gon)
     - [Stage 2: Let's Dive into Interchain NFTs Transfer](#stage-2-lets-dive-into-interchain-nfts-transfer)
     - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
-      - [**Round 3: Competitive Individual Race**](#round-3-competitive-individual-race)
   - [Point System](#point-system)
     - [General Tasks](#general-tasks)
     - [Game Tasks](#game-tasks)
@@ -143,10 +142,10 @@ The first round airdrop will start at around 2023-03-15-06:00 UTC, and the secon
 **Task Data:**
 ```
 {
-	"type": "individual race round",
-	"flow": "the flow id, check flow with flow-id on https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md",
+  "type": "individual race round",
+  "flow": "the flow id, check flow with flow-id on https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md",
   "last_owner": "the ultimate owner of this NFT",
-	"start_height": "transfer before this height are considered valid"
+  "start_height": "transfer before this height are considered valid"
 }
 ```
 
