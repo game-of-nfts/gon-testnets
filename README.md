@@ -20,6 +20,7 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
     - [Stage 1: Welcome to GoN](#stage-1-welcome-to-gon)
     - [Stage 2: Let's Dive into Interchain NFTs Transfer](#stage-2-lets-dive-into-interchain-nfts-transfer)
     - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
+      - [**Round 3: Competitive Individual Race**](#round-3-competitive-individual-race)
   - [Point System](#point-system)
     - [General Tasks](#general-tasks)
     - [Game Tasks](#game-tasks)
@@ -135,11 +136,9 @@ Started from **Mar 13**
 
 #### **Round 3: Competitive Individual Race**
 
-Participants receive NFT airdrops on IRISnet and perform Interchain NFT Transfer through specified flows in Task Data. The airdrop has two rounds: In the first round, all participants go through the same flow, and in the second round, all participants go through different flows.
+In this round, participants will receive NFT airdrops on IRISnet. Each NFT contains `Task Data` in its token data, which includes a `flow` field with a corresponding `flow-id` value that can be used to query the actual flow [in flow table](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). Participants can then perform Interchain NFT Transfer using the specified flows. After completing the interchain NFT transfer, each participant must transfer that NFT to the `last_owner` and then complete the race.
 
-The first round airdrop will start at around `2023-03-15-06:00 UTC`, and the second round airdrop will start at around `2023-03-16-06:00 UTC`. Before that, participants can prepare their strategies. Please make sure that you have been added to the `gon-evidence` repository and your information is correct, otherwise, you may not receive the airdrop!
-
-**Task Data:**
+**Task Data**
 ```
 {
   "type": "individual race round",
@@ -149,49 +148,52 @@ The first round airdrop will start at around `2023-03-15-06:00 UTC`, and the sec
 }
 ```
 
+The airdrop has two rounds: In the first round, all participants will go through the same flow, and the airdrop will start at around `2023-03-15 06:00 UTC`. In the second round, all participants will go through different flows, and the airdrop will start at around `2023-03-16 06:00 UTC`. Before that, participants can prepare their strategies. Please ensure that you have been added to the gon-evidence repository and that your information is correct, otherwise you may not receive the airdrop!
+
 **Rules:**
-- The `flow` can be queryied with `flow-id` [here](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). 
-- The `start_height` is the block height on IRISnet. Any transfer prior to the `start_height` will be considered invalid.
-- Participants must use their own account addresses provided at the registration stage.
-- The `last_owner` is an official address on IRISnet. After finishing the interchain NFT transfer, every participant transfer the NFT to `last_owner` then complete the race.
-- Considering the time zone difference, the completion time is calculated by the difference in height between the last NFT transfer (to the `last_owner`) and the first interchain NFT transfer on IRISnet.
+
+- The `start_height` is the block height on IRISnet. Any transfer prior to the `start_height` will be considered invalid, which means your first Interchain NFT Transfer must happen after that height.
+- The `last_owner` is an official address on IRISnet, and is the final recipient of the NFT in this game. 
+- Considering the time zone difference, the completion time is calculated by the **difference** in height between the last NFT transfer (to the `last_owner`) and the first Interchain NFT transfer (not `start_height`) on IRISnet.
 - The participant with the smallest difference in block height will rank higher, and in case of a tie, the ranking will be based on the height of the last transfer, with the participant having the lower height ranking higher.
-- The end of round 3 will be at `2023-03-17-23:59:59 UTC`. The height of evidence will be considered invalid if completed after the corresponding block height.
+- Participants must use their own account addresses provided at the registration stage.
+- The third round of the competition will conclude at `2023-03-17 23:59:59 UTC`. After this, you can still complete B1 and B2, but your race rank will not be counted, and you will not be eligible to win B3 and B4.
+- The top 10 participants in each airdrop round will be awarded B3 and B4 points.
 
 **Tasks:** B1, B2, B3, B4
 
 ## Point System
 
+For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission)
+
 ### General Tasks
 
 General tasks allow participants to fully experience the NFT-transfer functionality. The deadline for the general task submissions (stage 1&2) originally due on the 13th will be extended to around 27th, considering that more testing would be better.~~These tasks will be locked once the 3rd stage has begun.~~ Participants must submit evidence generated before then (based on the specified block height). Details of flow and flow style in the task description can be found [here](./doc/flow-table.md).
 
-| Id  | Point | Task                                                   | Details                                                                                     | Evidence                                                             |
-| --- | ----- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| A1  | 1     | Create one Collection on IRISnet                       | Must set ClassUri and ClassData                                                             | TxHash on IRISnet                                                    |
-| A2  | 1     | Mint NFTs on IRISnet                                   | Must set TokenUri and TokenData and mint at least two NFTs                                  | TxHashes on IRISnet                                                  |
-| A3  | 1     | Transfer an NFT from IRISnet to Juno or Stargaze       | The NFT must be the one created in A2                                                       | TxHash on IRISnet <br> Destination Chain-ID <br> Contract-Addr+NFTID |
-| A4  | 1     | Transfer an NFT from IRISnet to Uptick or OmniFlix     | The NFT must be the one created in A2                                                       | TxHash on IRISnet <br> Destination Chain-ID <br> IBC-ClassID+NFTID   |
-| A5  | 1     | Transfer the NFT on Stargaze or Juno back to IRISnet   | The NFT must be the one transferred in A3 <br> Transfer back through the same channel in A3 | TxHash on Stargaze/Juno <br> Chain-ID                                |
-| A6  | 1     | Transfer the NFT on Uptick or OmniFlix back to IRISnet | The NFT must be the one transferred in A4 <br> Transfer back through the same channel in A4 | TxHash on Uptick/OmniFlix <br> Chain-ID                              |
-| A7  | 2     | Perform cross-chain NFT transfer as flow-a1            | Transfer in a never-go-back style.                                                          | ClassID + NFTID                                                      |
-| A8  | 2     | Perform cross-chain NFT transfer as flow-a2            | Transfer in a never-go-back style.                                                          | ClassID + NFTID                                                      |
-| A9  | 2     | Perform cross-chain NFT transfer as flow-a3            | Transfer in a never-go-back style.                                                          | ClassID + NFTID                                                      |
-| A10 | 2     | Perform cross-chain NFT transfer as flow-a4            | Transfer in a never-go-back style.                                                          | ClassID + NFTID                                                      |
-| A11 | 3     | Perform cross-chain NFT transfer as flow-a5            | Transfer in a never-go-back style.                                                          | ClassID + NFTID                                                      |
-| A12 | 3     | Perform cross-chain NFT transfer as flow-a6            | Transfer in a never-go-back style.                                                          | ClassID + NFTID                                                      |
-| A13 | 2     | Perform cross-chain NFT transfer as flow-b1            | Transfer in a revisit style.                                                                | Every NFT-Transfer TxHash and Chain ID                               |
-| A14 | 2     | Perform cross-chain NFT transfer as flow-b2            | Transfer in a revisit style.                                                                | Every NFT-Transfer TxHash and Chain ID                               |
-| A15 | 2     | Perform cross-chain NFT transfer as flow-b3            | Transfer in a revisit style.                                                                | Every NFT-Transfer TxHash and Chain ID                               |
-| A16 | 2     | Perform cross-chain NFT transfer as flow-b4            | Transfer in a revisit style.                                                                | Every NFT-Transfer TxHash and Chain ID                               |
-| A17 | 2     | Perform cross-chain NFT transfer as flow-c1            | Transfer in a backtrack style.                                                              | Every NFT-Transfer TxHash and Chain ID                               |
-| A18 | 2     | Perform cross-chain NFT transfer as flow-c2            | Transfer in a backtrack style.                                                              | Every NFT-Transfer TxHash and Chain ID                               |
-| A19 | 3     | Perform cross-chain NFT transfer as flow-c3            | Transfer in a backtrack style.                                                              | Every NFT-Transfer TxHash and Chain ID                               |
-| A20 | 3     | Perform cross-chain NFT transfer as flow-c4            | Transfer in a backtrack style.                                                              | Every NFT-Transfer TxHash and Chain ID                               |
+| Id  | Point | Task                                                   | Details                                                                                     |
+| --- | ----- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| A1  | 1     | Create one Collection on IRISnet                       | Must set ClassUri and ClassData                                                             |
+| A2  | 1     | Mint NFTs on IRISnet                                   | Must set TokenUri and TokenData and mint at least two NFTs                                  |
+| A3  | 1     | Transfer an NFT from IRISnet to Juno or Stargaze       | The NFT must be the one created in A2                                                       |
+| A4  | 1     | Transfer an NFT from IRISnet to Uptick or OmniFlix     | The NFT must be the one created in A2                                                       |
+| A5  | 1     | Transfer the NFT on Stargaze or Juno back to IRISnet   | The NFT must be the one transferred in A3 <br> Transfer back through the same channel in A3 |
+| A6  | 1     | Transfer the NFT on Uptick or OmniFlix back to IRISnet | The NFT must be the one transferred in A4 <br> Transfer back through the same channel in A4 |
+| A7  | 2     | Perform cross-chain NFT transfer as flow-a1            | Transfer in a never-go-back style.                                                          |
+| A8  | 2     | Perform cross-chain NFT transfer as flow-a2            | Transfer in a never-go-back style.                                                          |
+| A9  | 2     | Perform cross-chain NFT transfer as flow-a3            | Transfer in a never-go-back style.                                                          |
+| A10 | 2     | Perform cross-chain NFT transfer as flow-a4            | Transfer in a never-go-back style.                                                          |
+| A11 | 3     | Perform cross-chain NFT transfer as flow-a5            | Transfer in a never-go-back style.                                                          |
+| A12 | 3     | Perform cross-chain NFT transfer as flow-a6            | Transfer in a never-go-back style.                                                          |
+| A13 | 2     | Perform cross-chain NFT transfer as flow-b1            | Transfer in a revisit style.                                                                |
+| A14 | 2     | Perform cross-chain NFT transfer as flow-b2            | Transfer in a revisit style.                                                                |
+| A15 | 2     | Perform cross-chain NFT transfer as flow-b3            | Transfer in a revisit style.                                                                |
+| A16 | 2     | Perform cross-chain NFT transfer as flow-b4            | Transfer in a revisit style.                                                                |
+| A17 | 2     | Perform cross-chain NFT transfer as flow-c1            | Transfer in a backtrack style.                                                              |
+| A18 | 2     | Perform cross-chain NFT transfer as flow-c2            | Transfer in a backtrack style.                                                              |
+| A19 | 3     | Perform cross-chain NFT transfer as flow-c3            | Transfer in a backtrack style.                                                              |
+| A20 | 3     | Perform cross-chain NFT transfer as flow-c4            | Transfer in a backtrack style.                                                              |
 
 ### Game Tasks
-
-For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission)
 
 | #   | Point | Task                                         | Details                                             |
 | --- | ----- | -------------------------------------------- | --------------------------------------------------- |
