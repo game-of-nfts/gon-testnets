@@ -136,7 +136,7 @@ Started from **Mar 13**
 
 #### **Round 3: Competitive Individual Race**
 
-In this round, participants will receive NFT airdrops on IRISnet. Each NFT contains `Task Data` in its token data, which includes a `flow` field with a corresponding `flow-id` value that can be used to query the actual flow [in flow table](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). Participants can then perform Interchain NFT Transfer using the specified flows. After completing the interchain NFT transfer, each participant must transfer that NFT to the `last_owner` and then complete the race.
+In this round, participants will receive [NFT airdrops](https://github.com/game-of-nfts/gon-evidence/issues/460) on IRISnet. Each NFT contains `Task Data` in its token data, which includes a `flow` field with a corresponding `flow-id` value that can be used to query the actual flow [in flow table](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). Participants can then perform Interchain NFT Transfer using the specified flows. After completing the interchain NFT transfer, each participant must transfer that NFT to the `last_owner` to complete the race.
 
 **Task Data**
 ```
@@ -152,13 +152,13 @@ The airdrop has two rounds: In the first round, all participants will go through
 
 **Rules:**
 
-- The `start_height` is the block height on IRISnet. Any transfer prior to the `start_height` will be considered invalid, which means your first Interchain NFT Transfer must happen after that height.
+- The `start_height` is the block height on IRISnet. Any transfer prior to the `start_height` will be considered invalid, which means your first Interchain NFT Transfer must happen after that height. Note that `start_height` is not used for calculate your grade.
 - The `last_owner` is an official address on IRISnet, and is the final recipient of the NFT in this game. 
 - Considering the time zone difference, the completion time is calculated by the **difference** in height between the last NFT transfer (to the `last_owner`) and the first Interchain NFT transfer (not `start_height`) on IRISnet.
 - The participant with the smallest difference in block height will rank higher, and in case of a tie, the ranking will be based on the height of the last transfer, with the participant having the lower height ranking higher.
 - Participants must use their own account addresses provided at the registration stage.
 - The third round of the competition will conclude at `2023-03-17 23:59:59 UTC`. After this, you can still complete B1 and B2, but your race rank will not be counted, and you will not be eligible to win B3 and B4.
-- The top 10 participants in each airdrop round will be awarded B3 and B4 points.
+- The top 10 participants in each airdrop round will be awarded B3 and B4 points. Evidence is not required for B3 and B4, as we calculate the height difference from B1 and B2 evidence.
 
 **Tasks:** B1, B2, B3, B4
 
