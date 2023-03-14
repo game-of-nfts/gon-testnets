@@ -22,7 +22,7 @@ Backtrack:  All class-id prefixes are finally removed in the transfer flow (i.e.
 ## Flow Table for Stage 2
 
 | Flow Id | Style         | Flow                                                                |
-| ------- | ------------- | ------------------------------------------------------------------- |
+|---------|---------------|---------------------------------------------------------------------|
 | a1      | never-go-back | i --(1)--> s --(1)--> j --(1)--> i                                  |
 | a2      | never-go-back | i --(1)--> u --(1)--> o --(1)--> i                                  |
 | a3      | never-go-back | i --(1)--> s --(1)--> j --(1)--> u --(1)--> i                       |
@@ -42,7 +42,7 @@ Backtrack:  All class-id prefixes are finally removed in the transfer flow (i.e.
 ## Flow Table for Stage 3
 
 | Flow Id | Style         | Flow                                                     |
-| ------- | ------------- | -------------------------------------------------------- |
+|---------|---------------|----------------------------------------------------------|
 | f1      | never-go-back | i --(1)--> s --(1)--> j --(1)--> u --(1)--> o --(1)--> i |
 | f2      | never-go-back | i --(1)--> s --(1)--> j --(1)--> u --(1)--> o --(2)--> i |
 | f3      | never-go-back | i --(1)--> s --(1)--> j --(1)--> u --(2)--> o --(1)--> i |
