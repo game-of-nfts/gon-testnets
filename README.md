@@ -137,7 +137,7 @@ Started from **Mar 13**
 
 Participants receive NFT airdrops on IRISnet and perform Interchain NFT Transfer through specified flows in Task Data. The airdrop has two rounds: In the first round, all participants go through the same flow, and in the second round, all participants go through different flows.
 
-The first round airdrop will start at around 2023-03-15-06:00 UTC, and the second round airdrop will start at around 2023-03-16-06:00 UTC. Before that, participants can prepare their strategies. Please make sure that you have been added to the `gon-evidence` repository and your information is correct, otherwise, you may not receive the airdrop!
+The first round airdrop will start at around `2023-03-15-06:00 UTC`, and the second round airdrop will start at around `2023-03-16-06:00 UTC`. Before that, participants can prepare their strategies. Please make sure that you have been added to the `gon-evidence` repository and your information is correct, otherwise, you may not receive the airdrop!
 
 **Task Data:**
 ```
@@ -145,7 +145,7 @@ The first round airdrop will start at around 2023-03-15-06:00 UTC, and the secon
   "type": "individual race round",
   "flow": "the flow id, check flow with flow-id on https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md",
   "last_owner": "the ultimate owner of this NFT",
-  "start_height": "transfer before this height are considered valid"
+  "start_height": "transfer before this height are considered invalid"
 }
 ```
 
@@ -242,7 +242,11 @@ The following behavior will result in disqualification from Game of NFTs Phase 1
 
 ## Acknowledgements
 
-We are grateful to the individuals and teams who have contributed their time and expertise to assist in updating and enhancing this repo.
+We are grateful to the individuals and teams who have contributed their time and expertise to assist in updating and enhancing this repo and the GoN event.
+
+- [Ping.Pub](https://github.com/liangping)
+- [Ark Protocol](https://github.com/taitruong)
+- [Gjermund Garaba](https://github.com/gjermundgaraba)
 
 ## Reference Links
 
