@@ -136,7 +136,7 @@ Started from **Mar 13**
 
 #### **Round 3: Competitive Individual Race**
 
-In this round, participants will receive [NFT airdrops](https://github.com/game-of-nfts/gon-evidence/issues/460) on IRISnet. Each NFT contains `Task Data` in its token data, which includes a `flow` field with a corresponding `flow-id` value that can be used to query the actual flow [in flow table](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). Participants can then perform Interchain NFT Transfer using the specified flows. After completing the interchain NFT transfer, each participant must transfer that NFT to the `last_owner` to complete the race.
+In this round, participants will receive [NFT airdrops](https://github.com/game-of-nfts/gon-evidence/issues/460) on IRISnet. Each NFT contains `Task Data` in its token data, which includes a `flow` field with a corresponding `flow-id` value that can be used to query the actual flow [in flow table](https://github.com/game-of-nfts/gon-testnets/blob/main/doc/flow-table.md). Participants can then perform Interchain NFT Transfer using the specified flows. After completing the interchain NFT transfer, each participant must transfer that NFT to the `last_owner` to complete the race. **Remember, for the final interchain transfer, transfer the NFT back to your Iris address first, and then transfer it to the `last_owner`**
 
 **Task Data**
 ```
