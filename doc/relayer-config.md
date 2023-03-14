@@ -153,8 +153,8 @@ list = [
   ['*', 'channel-90'],
   ['*', 'channel-91'],
   ['*', 'channel-92'],
-  ['*', 'channel-93'],
-  ['*', 'channel-94'],
+  ['*', 'channel-120'],
+  ['*', 'channel-122'],
 ]
 
 [[chains]]
@@ -187,8 +187,8 @@ list = [
   ['*', 'channel-208'],
   ['*', 'channel-209'],
   ['*', 'channel-210'],
-  ['*', 'channel-211'],
-  ['*', 'channel-212'],
+  ['*', 'channel-230'],
+  ['*', 'channel-234'],
 ]
 ```
 
@@ -427,27 +427,27 @@ paths:
         src-channel-filter:
             rule: ""
             channel-list: []
-    uni-6_channel-93-elgafar-1_channel-211:
+    uni-6_channel-120-elgafar-1_channel-230:
         src:
             chain-id: uni-6
-            client-id: 07-tendermint-88
-            connection-id: connection-96
+            client-id: 07-tendermint-115
+            connection-id: connection-120
         dst:
             chain-id: elgafar-1
-            client-id: 07-tendermint-188
-            connection-id: connection-177
+            client-id: 07-tendermint-211
+            connection-id: connection-200
         src-channel-filter:
             rule: ""
             channel-list: []
-    uni-6_channel-94-elgafar-1_channel-213:
+    uni-6_channel-122-elgafar-1_channel-234:
         src:
             chain-id: uni-6
-            client-id: 07-tendermint-89
-            connection-id: connection-97
+            client-id: 07-tendermint-117
+            connection-id: connection-126
         dst:
             chain-id: elgafar-1
-            client-id: 07-tendermint-189
-            connection-id: connection-179
+            client-id: 07-tendermint-213
+            connection-id: connection-204
         src-channel-filter:
             rule: ""
             channel-list: []
