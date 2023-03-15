@@ -21,9 +21,13 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
     - [Stage 2: Let's Dive into Interchain NFTs Transfer](#stage-2-lets-dive-into-interchain-nfts-transfer)
     - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
       - [**Round 3: Competitive Individual Race**](#round-3-competitive-individual-race)
+  - [Challenge](#challenge)
+    - [**C1**: Strategy of relaying your tx smoothly.](#c1-strategy-of-relaying-your-tx-smoothly)
+    - [**C2**: Strategy of preventing bunch txs stuck on channels.](#c2-strategy-of-preventing-bunch-txs-stuck-on-channels)
   - [Point System](#point-system)
     - [General Tasks](#general-tasks)
     - [Game Tasks](#game-tasks)
+    - [Challenging Tasks](#challenging-tasks)
     - [Award](#award)
   - [Rules](#rules)
     - [Entry Requirements](#entry-requirements)
@@ -162,6 +166,22 @@ The airdrop has two rounds: In the first round, all participants will go through
 
 **Tasks:** B1, B2, B3, B4
 
+## Challenge
+
+During the activity on the testnet, we found that there were some issues when transferring through the designated channels, possibly caused by defects or attacks. A large number of transactions needed to wait a long time to be smoothly relayed, which has become a recognized challenge.
+
+However, this is also the meaning of the existence of the testnet. By solving these exposed issues, we can operate better in the formal environment. Therefore, we have set up challenge tasks to encourage participants to solve these problems, ensure the stability and normal operation of the channels, and obtain challenge points.
+
+Open an issue on `gon-evidence` to show you can solve the challenge!
+
+### **C1**: Strategy of relaying your tx smoothly.
+
+Provide the most effective strategy and tool for transferring a stuck transaction package to the destination chain, ensuring seamless transaction relay between different blockchains.
+
+### **C2**: Strategy of preventing bunch txs stuck on channels.
+
+Provide the most effective strategy to ensure smooth and uncongested transfer operation between chains, preventing batches of transactions from getting stuck.
+
 ## Point System
 
 For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission)
@@ -195,13 +215,21 @@ General tasks allow participants to fully experience the NFT-transfer functional
 
 ### Game Tasks
 
-| #   | Point | Task                                         | Details                                             |
+| Id  | Point | Task                                         | Details                                             |
 | --- | ----- | -------------------------------------------- | --------------------------------------------------- |
 | B1  | 5     | Competitive! Individual Race Round 1         | Each participant will go through the same flow      |
 | B2  | 5     | Competitive! Individual Race Round 2         | Each participant will go through the different flow |
 | B3  | 50    | Competitive! Individual Race Round 1 Winners | The top 10 participants will get 50 points each.    |
 | B4  | 50    | Competitive! Individual Race Round 2 Winners | The top 10 participants will get 50 points each.    |
 | ... | ...   | ...                                          | ...                                                 |
+
+### Challenging Tasks
+
+| Id  | Point | Task                                   | Details             |
+| --- | ----- | -------------------------------------- | ------------------- |
+| C1  | 350   | Challenge! Relay your stucking package | At most two winners |
+| C2  | 800   | Challenge! Prevent bunch stuck txs     | At most one winner  |
+
 
 ### Award
 
