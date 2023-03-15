@@ -22,8 +22,8 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
     - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
       - [**Round 3: Competitive Individual Race**](#round-3-competitive-individual-race)
   - [Challenge](#challenge)
-    - [**C1**: Strategy of relaying your tx smoothly.](#c1-strategy-of-relaying-your-tx-smoothly)
-    - [**C2**: Strategy of preventing bunch txs stuck on channels.](#c2-strategy-of-preventing-bunch-txs-stuck-on-channels)
+      - [**C1**: Strategy of relaying your tx smoothly.](#c1-strategy-of-relaying-your-tx-smoothly)
+      - [**C2**: Strategy of preventing bunch txs stuck on channels.](#c2-strategy-of-preventing-bunch-txs-stuck-on-channels)
   - [Point System](#point-system)
     - [General Tasks](#general-tasks)
     - [Game Tasks](#game-tasks)
@@ -174,13 +174,21 @@ However, this is also the meaning of the existence of the testnet. By solving th
 
 Open an issue on `gon-evidence` to show you can solve the challenge!
 
-### **C1**: Strategy of relaying your tx smoothly.
+#### **C1**: Strategy of relaying your tx smoothly.
 
 Provide the most effective strategy and tool for transferring a stuck transaction package to the destination chain, ensuring seamless transaction relay between different blockchains.
 
-### **C2**: Strategy of preventing bunch txs stuck on channels.
+**Rules:**
+- Select only two best solutions
+- Explain the principle and provide the code
+
+#### **C2**: Strategy of preventing bunch txs stuck on channels.
 
 Provide the most effective strategy to ensure smooth and uncongested transfer operation between chains, preventing batches of transactions from getting stuck.
+
+**Rules:**
+- Select only one best solution
+- Explain the principle and provide the code
 
 ## Point System
 
