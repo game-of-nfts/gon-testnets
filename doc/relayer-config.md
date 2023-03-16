@@ -431,7 +431,7 @@ paths:
         src:
             chain-id: uni-6
             client-id: 07-tendermint-115
-            connection-id: connection-120
+            connection-id: connection-124
         dst:
             chain-id: elgafar-1
             client-id: 07-tendermint-211
