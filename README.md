@@ -285,6 +285,12 @@ We are grateful to the individuals and teams who have contributed their time and
 - [Ping.Pub](https://github.com/liangping)
 - [Ark Protocol](https://github.com/taitruong)
 - [Gjermund Garaba](https://github.com/gjermundgaraba)
+- Xavier Team
+ 1. [Gon WorkShop](https://github.com/xavier200203/gon-workshop)
+ 2. [How To Get Set Up For COSMOS Game of NFTs(video)](https://www.youtube.com/watch?v=knEb_M1EXrM&t=48s)
+ 3. [Chain Transfers For Game of NFTs (GoN)(video)](https://www.youtube.com/watch?v=Y_Y3E5Z7OSQ&t=134s)
+- [NFT4good  Dashboard](https://github.com/xavier200203/gon-workshop)
+- [NFTland  Explorer](http://www.nftland.org)
 
 ## Reference Links
 
