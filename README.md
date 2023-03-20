@@ -22,7 +22,8 @@ Phase 1 of GoN now kicks off at **2023-03-01-06:00 UTC**, and we have a number o
     - [Stage 3: Enjoy the Carnival of GoN](#stage-3-enjoy-the-carnival-of-gon)
       - [**Round 3: Competitive Individual Race**](#round-3-competitive-individual-race)
       - [**Round 4: Competitive Team Race**](#round-4-competitive-team-race)
-  - [Challenge](#challenge)
+      - [**Round 5: Quiz Game**](#round-5-quiz-game)
+    - [Challenge](#challenge)
       - [**C1**: Strategy of relaying your tx smoothly.](#c1-strategy-of-relaying-your-tx-smoothly)
       - [**C2**: Strategy of preventing bunch txs stuck on channels.](#c2-strategy-of-preventing-bunch-txs-stuck-on-channels)
   - [Point System](#point-system)
@@ -191,7 +192,44 @@ Round 4 follows a procedure similar to that of Round 3, with the exception of a 
 - The third round of the competition will conclude at `2023-03-24 23:59:59 UTC`. After this, you can still complete B5, B6 and B7, but your race rank will not be counted, and you will not be eligible to win B8.
 - The top 10 participants in each airdrop round will be awarded B8 points. Evidence is not required for B8.
 
-## Challenge
+#### **Round 5: Quiz Game**
+
+In the quiz game, the organizers will airdrop 100 Quiz NFTs that are owned by 100 preset addresses around `2023-03-21 08:00 UTC`. Participants are required to **guess the answer** to the question in `Task Data`, which serves as the secret key to decrypt the mnemonics. The participants must then use the mnemonics to generate these preset addresses and transfer the NFT according to the flow.
+
+The quiz questions cover different domains which are related to the Cosmos world. All answers are single words containing lowercase characters, hyphens, and Arabic numerals. 
+
+**Task Data:**
+
+```json
+{
+	"question": "the answer of this question is the key to decrpyt the mnemonics",
+	"mnemonics_encrypted": "aes encrypted mnemonics",
+	"flow": "the flow id, check the flow off-chain"
+}
+```
+
+**Rules:**
+- The answer is a single word of lowercase characters, hyphens and numbers. The possible format are `abc`, `abc-10`, `10-abc`, `10abc`, `abc10` and `1234`.
+- To ensure fairness, any DMs to the coordinators regarding quiz game will not be responded to.
+- A uniform encryption and decryption tool is provided to ensure that the answers can be correctly decrypted.
+- The total number of NFTs is only 100, and each player can solve as many questions as possible to get points.
+- The final owner of the NFT must be participants’ own addresses on IRISnet. Otherwise, they won’t get points.
+
+**Tools:**
+
+We provide a tool for decrypting the enrpyted menenocis with the answer of each question.
+
+```bash
+git clone https://github.com/game-of-nfts/gon-toolbox
+
+cd gon-toolbox
+
+make install
+
+gontool aes decrypt [answer] [encrypted_mnemonics] 
+```
+
+### Challenge
 
 During the activity on the testnet, we found that there were some issues when transferring through the designated channels, possibly caused by defects or attacks. A large number of transactions needed to wait a long time to be smoothly relayed, which has become a recognized challenge.
 
@@ -257,8 +295,8 @@ General tasks allow participants to fully experience the NFT-transfer functional
 | B5  | 10    | Competitive! Team Race Round 1               | Each participant will go through the same flow      |
 | B6  | 10    | Competitive! Team Race Round 2               | Each participant will go through the same flow      |
 | B7  | 10    | Competitive! Team Race Round 3               | Each participant will go through the same flow      |
-| B8  | 150   | Competitive! Team Race Winner                | The top 10 participants will get 100 points each.   |
-| ... | ...   | ...                                          | ...                                                 |
+| B8  | 150   | Competitive! Team Race Winner                | The top 10 participants will get 150 points each.   |
+| B9  | 10    | Quiz! Solve the quiz                         | This is a repeatable task                           |
 
 ### Challenging Tasks
 
