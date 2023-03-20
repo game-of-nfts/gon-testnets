@@ -196,7 +196,7 @@ Round 4 follows a procedure similar to that of Round 3, with the exception of a 
 
 In the quiz game, the organizers will airdrop 100 Quiz NFTs that are owned by 100 preset addresses around `2023-03-21 08:00 UTC`. Participants are required to **guess the answer** to the question in `Task Data`, which serves as the secret key to decrypt the mnemonics. The participants must then use the mnemonics to generate these preset addresses and transfer the NFT according to the flow.
 
-The quiz questions cover different domains which are related to the Cosmos world. All answers are single words containing lowercase characters, hyphens, and Arabic numerals. 
+The quiz questions cover different domains which are related to Cosmos and NFT. All answers are single words containing lowercase characters, hyphens, and Arabic numerals. 
 
 **Task Data:**
 
@@ -217,7 +217,7 @@ The quiz questions cover different domains which are related to the Cosmos world
 
 **Tools:**
 
-We provide a tool for decrypting the enrpyted menenocis with the answer of each question.
+We provide a tool for decrypting the enrpyted menenocis with the answer of each question. Note that `go` is a prerequsite for this tool.
 
 ```bash
 git clone https://github.com/game-of-nfts/gon-toolbox
