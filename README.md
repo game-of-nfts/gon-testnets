@@ -192,6 +192,8 @@ Round 4 follows a procedure similar to that of Round 3, with the exception of a 
 - The third round of the competition will conclude at `2023-03-24 23:59:59 UTC`. After this, you can still complete B5, B6 and B7, but your race rank will not be counted, and you will not be eligible to win B8.
 - The top 10 participants in each airdrop round will be awarded B8 points. Evidence is not required for B8.
 
+**Tasks**: B5,B6,B7,B8
+
 #### **Round 5: Quiz Game**
 
 In the quiz game, the organizers will airdrop 100 Quiz NFTs that are owned by 100 preset addresses around `2023-03-21 08:00 UTC`. Participants are required to **guess the answer** to the question in `Task Data`, which serves as the secret key to decrypt the mnemonics. The participants must then use the mnemonics to generate these preset addresses and transfer the NFT according to the flow.
@@ -228,6 +230,8 @@ make install
 
 gontool aes decrypt [answer] [encrypted_mnemonics] 
 ```
+
+**Tasks**: B9
 
 ### Challenge
 
