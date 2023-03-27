@@ -190,7 +190,7 @@ Round 4 follows a procedure similar to that of Round 3, with the exception of a 
 - Participants must use their own account addresses provided at the registration stage.
 - Each transfer message must be in a separate tranasction (meaning, you can't bundle transfer messages into a single tranasction - one transfer message per transaction)
 - Participants must complete all of B5, B6 and B7 in order to be eligible for the ranking, which is calculated by summing the differences in block heights of each NFT between the last NFT transfer and the first Interchain NFT transfer on IRISnet.
-- The third round of the competition will conclude at `2023-03-24 23:59:59 UTC`. After this, you can still complete B5, B6 and B7, but your race rank will not be counted, and you will not be eligible to win B8.
+- The fourth round of the competition will conclude at `2023-03-24 23:59:59 UTC`. After this, you can still complete B5, B6 and B7, but your race rank will not be counted, and you will not be eligible to win B8.
 - The top 10 participants in each airdrop round will be awarded B8 points. Evidence is not required for B8.
 
 **Tasks**: B5,B6,B7,B8
