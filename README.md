@@ -260,7 +260,7 @@ Provide the most effective strategy to ensure smooth and uncongested transfer op
 
 ## Point System
 
-For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission)
+For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission). In light of the judges' review and voting, some adjustments made accordingly.
 
 ### General Tasks
 
