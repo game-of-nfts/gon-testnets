@@ -260,7 +260,7 @@ Provide the most effective strategy to ensure smooth and uncongested transfer op
 
 ## Point System
 
-For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission)
+For evidence submission, please refer to [gon-evidence](https://github.com/game-of-nfts/gon-evidence#task-evidence-submission). In light of the judges' review and voting, some adjustments made accordingly.
 
 ### General Tasks
 
@@ -301,7 +301,7 @@ General tasks allow participants to fully experience the NFT-transfer functional
 | B6  | 10    | Competitive! Team Race Round 2               | Each participant will go through the same flow      |
 | B7  | 10    | Competitive! Team Race Round 3               | Each participant will go through the same flow      |
 | B8  | 150   | Competitive! Team Race Winner                | The top 10 participants will get 150 points each.   |
-| B9  | 10    | Quiz! Solve the quiz                         | This is a repeatable task                           |
+| B9  | ~~10~~ 5    | Quiz! Solve the quiz                         | This is a repeatable task                           |
 
 ### Challenging Tasks
 
@@ -319,7 +319,7 @@ General tasks allow participants to fully experience the NFT-transfer functional
 | 2   | 800    | Public Good Awards | Provide the tools to help test Interchain Transfer NFT, including interchain explorers, NFT path visualization tools, wallets, dashboards, etc. At most two. |
 | 3   | 350    | Community Star     | Provide the most help for the game and participants.                                                                                                         |
 | 4   | 250    | Best Promoter      | Create the best GoN promotional content on social media. <br> *We will take views and other metrics into consideration*.                                     |
-| 5   | 200    | Bug Hunters        | Find bugs that affect the functionality of ICS-721. At most five.                                                                                            |
+| 5   | ~~200~~ 300    | Bug Hunters        | Find bugs that affect the functionality of ICS-721. At most five.                                                                                            |
 | 6   | 100    | Best NFT Memes     | Create the most popular NFT memes.                                                                                                                           |
 
 ## Rules
